@@ -1,0 +1,167 @@
+:root{
+	--bg: #0c2a5c;
+}
+
+html{
+	height: -webkit-fill-available;
+}
+
+body{
+	display: grid;
+	grid-template-columns: auto;
+	background-color: black;
+	height: 100%;
+	margin: 0;
+}
+
+#slide-container{
+	grid-column: 1;
+	display: grid;
+	width: 900px;
+	height: 648px;
+	margin: auto;
+	position: relative;
+
+}
+
+
+div.slide{
+	position: absolute;
+	width: min-content;
+	height: min-content;
+	margin: auto;
+}
+
+.appear{
+	animation-name: appear;
+	animation-duration: 4s;
+}
+
+@keyframes appear {
+	from{opacity: 0;}
+	to{opacity: 1;}
+}
+
+.disappear{
+	animation-name: appear;
+	animation-duration: 4s;
+}
+
+@keyframes disappear {
+	from{opacity: 1;}
+	to{opacity: 0;}
+}
+
+
+div.black-slide{
+	position: absolute;
+	width: 900px;
+	height: 648px;
+	margin: auto;
+	background: linear-gradient(var(--bg),transparent,var(--bg));
+	opacity: 0.15;
+}
+
+
+div.background{
+	position: absolute;
+	width: 900px;
+	height: 648px;
+	background-color: var(--bg);
+	background-image: url('bg.png');
+}
+
+div.lyrics{
+	position: absolute;
+	width: 900px;
+	height: 648px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+#plaque{
+	grid-column: 2;
+	display: grid;
+	width: min-content;
+	height: min-content;
+	margin: auto;
+	text-align: center;
+}
+
+#plaque > div{
+	margin: 1em;
+}
+
+p{
+	font-size: 0.8em;
+	color: white;
+	text-align: center;
+	font-style: italic;
+	font-family: times new roman;
+	letter-spacing: 0.2em;
+	line-height: 1.2em;
+	text-shadow: 3px 0 5px rgba(255,255,255,0.6);
+}
+
+h2{
+	font-size: 1.3em;
+	font-variant: small-caps;
+	text-align: center;
+	color: white;
+	letter-spacing: 0.1em;
+	text-shadow: 3px 0 10px rgba(255,255,255,0.8);
+}
+
+.lyrics > *{
+	display: block;
+	padding: 6em;
+	padding-left: 8em;
+	padding-top: 8em;
+	padding-right: 1em;
+}
+
+button:hover{
+	text-shadow: 3px 0 10px white;
+	font-style: bold;
+	color: white;
+}
+
+button{
+	font-family: times new roman;
+	font-size: 0.9em;
+	color: rgba(255,255,255,0.5);
+	padding: 0.5em;
+	text-align: center;
+	letter-spacing: 0.4em;
+	display: block;
+	width: 14em;
+	background-color: transparent;
+}
+
+ol.plaque-list{
+	font-size: 0.9em;
+	padding: 0;
+	color: whitesmoke;
+	text-align: center;
+	letter-spacing: 0.2em;
+	display: block;
+	background-color: transparent;
+	line-height: 2em;
+	text-align: left;
+}
+
+ol.plaque-list > li{
+	text-decoration: none;
+}
+
+li:hover{
+	background: linear-gradient(to right, blue 60%, transparent);
+}
+
+#one,#two, #three, #four, #five, #six, #seven, #eight, #nine, #ten{
+	display: none;
+	position: absolute;
+	width: 900px;
+	height: 648px;
+
+}
