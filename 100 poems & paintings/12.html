@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<head>
+	<title>100 Poems</title>
+	<link rel="icon" type="image/x-icon" href="icon.png">
+</head>
+
+<!--
+
+Crema fondo: #dad7c8
+Crema oscuro: #a3a08e
+Azul árbol: #6193ac
+Blanco: #e8e8e8
+Azul oscuro: #39667d
+
+
+-->
+
+<style>
+
+::-webkit-scrollbar{
+	width: 0px;
+}
+
+::-webkit-scrollbar-track{
+	background: #dad7c8;
+}
+
+::-webkit-scrollbar-thumb{
+	background: #a3a08e;
+}
+
+hr.white{
+	border-top: 5px solid white;
+	margin-top: 15px;
+	margin-bottom: 0px;
+}
+
+
+body{
+	background-color: #6193ac;
+	margin: 0px;
+}
+
+
+h1{
+	font-family: georgia;
+	font-style: oblique;
+	font-variant: small-caps;
+	font-size: 100px;
+	text-align: center;
+	color: white;
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: #39667d;
+	margin-bottom: 0px;
+}
+
+h2{
+	font-family: georgia;
+	font-style: oblique;
+	font-size: 60px;
+	color: white;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: #39667d;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+h3{
+	font-family: times new roman;
+	font-style: italic;
+	font-size: 30px;
+	color: rgba(255,255,255,0.8);
+	outline-offset: 10px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+
+#bg-sections{
+	display: block;
+		width: 1400px;
+		height: 752px;
+	background-image: url(sec.jpg);
+	background-repeat: repeat-x;
+	background-size: cover;
+}
+
+#bg-header{
+	display: block;
+		width: 1400px;
+		height: 1400px;
+	background-image: url(header.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+		top: 0;
+		left: 0;
+}
+
+#wrapper{
+	position: relative;
+	height: auto;
+	width: auto;
+	overflow: hidden;
+}
+
+.content{
+	color: white;
+	font-size: 26px;
+	font-weight: bold;
+	position: relative;
+	z-index: 100;
+}
+
+.background{
+	position: absolute;
+	z-index: -100;
+}
+
+.clear{
+	clear: both;
+}
+
+.poem-grid{
+	display: grid;
+	grid-template-columns: minmax(min-content, 600px) 1fr;
+	grid-template-rows: 730px;
+	background-color: black;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.poem-grid-1 > div{
+	border: 5px;
+	border-color: black;
+}
+
+
+.poem-text{
+	display: block;
+	background-color: rgba(57,102,125,0.8);
+	width: 600px;
+	padding: 40px;
+	padding-top: 100px;
+	overflow-y: scroll;
+}
+
+.poem-info{
+	margin: 0px;
+	overflow: hidden;
+	position: relative;
+}
+
+.poem-desc{
+	display: block;
+	text-align: right;
+	padding: 40px;
+	padding-top: 10px;
+}
+
+.poem-art{
+	display: block;
+	background-color: #a3a08e;
+	text-align: center;
+	padding: 10px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: minmax(min-content,400px);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: times new roman;
+	font-color: rgba(255,255,255,0.6);
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+
+
+#button-panel{
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
+	margin: 20px;
+	text-align: center;
+}
+
+button{
+	background-color: #39667d;
+	border: 0px;
+	width: 100px;
+	height: 50px;
+}
+
+a{
+	font-family: times new roman;
+	color: white;
+	font-size: 20px;
+}
+
+a:link{
+	text-decoration: none;
+}
+
+p{
+	font-family: times new roman;
+	font-color: rgba(255,255,255,1);
+	font-size: 20px;
+	letter-spacing: 2px;
+	line-height: 33px;
+	background: -webkit-linear-gradient(rgba(255,255,255,1),rgba(255,255,255,0.5));
+	-webkit-background-clip:  text;
+	-webkit-text-fill-color: transparent;
+}
+
+</style>
+
+<body>
+
+<div id="wrapper">
+
+	<div class="content">
+
+		<!--HEADER-->
+
+		<div><h1>100 Poems</h1>
+			<h2 style="text-align: center;font-size: 50px;margin-top:0">& 100 paintings</h2>
+			<br>
+			<hr class="white"><hr class="white"></div>
+
+		<!--ROAD TO OKU-->
+
+		<div class="poem-grid" style="background-image: url(./paintings/currin2.jpg)">
+
+			<div class="poem-text" style="text-align:left;">
+					<p>Horse child breakfast,<br>
+						what are you doing to me?<br>
+						with your long blonde legs?<br>
+						with your long blonde face?<br>
+						with your long blonde hair?<br>
+						with your perfect blonde ass?<br>
+						<br>
+						I swear I'll never be the same again!<br>
+						<br>
+						Horse child breakfast<br>
+						what you're doing to me,<br>
+						I want done forever.<br></p>
+				</div>
+
+				<div class="poem-info"> 
+					<div class="poem-desc">
+					<h2>12. Horse Child Breakfast</h2>
+					<h3>Richard Brautigan</h3></div>
+
+			<div class="poem-art" style="font-size:18px"><span style="font-style: italic">The Hobo</span>, John Currin</div>
+			</div></div>
+
+
+		<!--DIVIDER-->
+		<hr class="white" style="margin-top:0; margin-bottom:15px">
+		<hr class="white" style="margin-top:0; margin-bottom:15px">
+
+		<!--BUTTONS-->
+		<div id="button-panel">
+			<div><a href="11.html"><img src="left-arrow.gif"></a></div>
+			<div><button><a href="index.html">Index</a></button></div>
+			<div><a href="13.html"><img src="right-arrow.gif"></a></div>
+</body>

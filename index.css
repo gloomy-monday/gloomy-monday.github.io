@@ -27,12 +27,39 @@ body > *{
 	background-color: var(--bg);
 }
 
+
 hr{
 	width: 60%;
 }
 
 header{
 	margin: auto;
+}
+
+main{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: auto;
+	padding: 10px;
+}
+
+main > *{
+	padding: 10px;
+}
+
+img{
+	width: 100%
+}
+
+.colorize{
+	animation-name: colorize;
+	animation-duration: 1s;
+}
+
+
+@keyframes colorize{
+	from{filter: grayscale(100%);}
+	to{filter: grayscale(0%);}
 }
 
 h1{
@@ -46,18 +73,47 @@ h1{
 	margin: 0.1em;
 }
 
+h2{
+	color: var(--text);
+	font-size: 1.5em;
+	font-weight: 500;
+	font-family: 'Aguafina Script', cursive;
+	letter-spacing: 0.5rem;
+	text-align: center;
+	margin: 0.1em;
+}
+
 p{
 	color: var(--text);
 	font-family: times new roman;
 	font-style: italic;
-	font-size: 1.2em;
+	font-size: 1em;
 	text-align: center;
+}
+
+header > p{
+	font-size: 1.2em;
+}
+
+a{
+	text-decoration: none;
+	color: var(--text);
 }
 
 .wrapper{
 	padding: 2em;
 	padding-top: 4em;
 	padding-bottom: 4em;
+	border: 0.2em dotted var(--text);
+}
+
+div.info{
+	padding: 1em;
+	width: 90%;
+}
+
+.info > *{
+	text-align: center;
 }
 
 @media screen and (max-width 750px){

@@ -6,6 +6,16 @@
 	<link rel="icon" type="image/x-icon" href="icon.png">
 	<link rel="stylesheet" href="index.css">
 	<link href="https://fonts.googleapis.com/css?family=Aguafina+Script:400,400italic,700,700italic%7CAmiri:400,400italic,700,700italic" rel="stylesheet" type="text/css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+	<script>
+		$("button").click(function(){
+  $("img:first").addClass("colorize");
+});
+
+	</script>
+
 </head>
 
 <body>
@@ -16,10 +26,33 @@
 	<p>Proyectos web varios</p>
 	<hr>
 </header>
-<ul>
-	<li><a href="/avalon/avalon-diorama.html">Una página</a></li>
-	<li><a href="http://www.google.com">Otra</a></li>
-</ul>
+
+<main>
+
+	<div>
+		<div><a href="/avalon/avalon-diorama.html"><img src="avalon-screen.jpg"></a></div>
+		<div class="info">
+		<h2><a href="/avalon/avalon-diorama.html">Avalon Diorama</a></h2>
+		<p>Las letras del álbum 'Avalon' de Roxy Music en formato diorama.</p></div>
+	</div>
+
+	<div>
+	<div><a href="/wrong way up/wrong way up.html"><img src="wwu-screen.jpg"></a></div>
+	<div class="info">
+	<h2><a href="/wrong way up/wrong way up.html">Wrong Way Up</a></h2>
+	<p>Las letras del álbum 'Wrong Way Up' de John Cale y Brian Eno emulando la portada.</p>
+	</div>
+	</div>
+
+	<div>
+	<div><a href="/100 poems & paintings/index.html"><img src="100poems-screen.jpg"></a></div>
+	<div class="info">
+	<h2><a href="/100 poems & paintings/index.html">100 Poems & Paintings</a></h2>
+	<p>Colección de poemas acompañados de cuadros.</p>
+	</div>
+	</div>
+
+</main>
 </div>
 
 </body>

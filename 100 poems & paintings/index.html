@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<head>
+	<title>100 Poems</title>
+	<link rel="icon" type="image/x-icon" href="icon.png">
+</head>
+
+<!--
+
+Crema fondo: #dad7c8
+Crema oscuro: #a3a08e
+Azul árbol: #6193ac
+Blanco: #e8e8e8
+Azul oscuro: #39667d
+
+
+-->
+
+<style>
+
+::-webkit-scrollbar{
+	width: 0px;
+}
+
+::-webkit-scrollbar-track{
+	background: #dad7c8;
+}
+
+::-webkit-scrollbar-thumb{
+	background: #a3a08e;
+}
+
+hr.white{
+	border-top: 5px solid white;
+	margin-top: 15px;
+	margin-bottom: 0px;
+}
+
+
+body{
+	background-color: #6193ac;
+	margin: 0px;
+}
+
+
+h1{
+	font-family: georgia;
+	font-style: oblique;
+	font-variant: small-caps;
+	font-size: 100px;
+	text-align: center;
+	color: white;
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: #39667d;
+	margin-bottom: 0px;
+}
+
+h2{
+	font-family: georgia;
+	font-style: oblique;
+	font-size: 60px;
+	color: white;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: #39667d;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+h3{
+	font-family: times new roman;
+	font-style: italic;
+	font-size: 30px;
+	color: rgba(255,255,255,0.8);
+	outline-offset: 10px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+
+#bg-sections{
+	display: block;
+		width: 1400px;
+		height: 752px;
+	background-image: url(sec.jpg);
+	background-repeat: repeat-x;
+	background-size: cover;
+}
+
+#bg-header{
+	display: block;
+		width: 1400px;
+		height: 1400px;
+	background-image: url(header.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+		top: 0;
+		left: 0;
+}
+
+#wrapper{
+	position: relative;
+	height: auto;
+	width: auto;
+	overflow: hidden;
+}
+
+.content{
+	color: white;
+	font-size: 26px;
+	font-weight: bold;
+	position: relative;
+	z-index: 100;
+}
+
+.background{
+	position: absolute;
+	z-index: -100;
+}
+
+.clear{
+	clear: both;
+}
+
+.poem-grid{
+	display: grid;
+	grid-template-columns: minmax(min-content, 600px) 1fr;
+	grid-template-rows: 730px;
+	background-color: black;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.poem-grid-1 > div{
+	border: 5px;
+	border-color: black;
+}
+
+
+.poem-text{
+	display: block;
+	background-color: rgba(57,102,125,0.8);
+	width: 600px;
+	padding: 40px;
+	padding-top: 100px;
+	overflow-y: scroll;
+}
+
+.poem-info{
+	margin: 0px;
+	overflow: hidden;
+	position: relative;
+}
+
+.poem-desc{
+	display: block;
+	text-align: right;
+	padding: 40px;
+	padding-top: 10px;
+}
+
+.poem-art{
+	display: block;
+	background-color: #a3a08e;
+	text-align: center;
+	padding: 10px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: minmax(min-content,400px);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: times new roman;
+	font-color: rgba(255,255,255,0.6);
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+
+
+
+
+p{
+	font-family: times new roman;
+	font-color: rgba(255,255,255,1);
+	font-size: 20px;
+	letter-spacing: 2px;
+	line-height: 33px;
+	background: -webkit-linear-gradient(rgba(255,255,255,1),rgba(255,255,255,0.5));
+	-webkit-background-clip:  text;
+	-webkit-text-fill-color: transparent;
+}
+
+.advent-calendar{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: repeat(20, 1fr);
+	padding: 50px;
+	overflow-y: scroll;
+
+}
+
+.advent-calendar > div{
+	background-color: blue;
+	border: 10px;
+	border-color: black;
+	padding: 20px;
+	margin: 10px;
+	height: 200px;
+	width: 200px;
+}
+
+.innertext-top{
+	font-size: 18px;
+	color: rgba(255,255,255,0.9);
+	text-align: left;
+}
+
+.innertext-bottom{
+	font-size: 18px;
+	color: rgba(255,255,255,0.9);
+	text-align: right;
+	postion: absolute;
+		bottom: 0;
+}
+
+.box{
+	position: relative;
+	padding: 50px;
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+	grid-template-columns: 1fr;
+		margin: 20px;
+}
+
+span{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	background-image: url('empty.gif');
+	font-size: 18px;
+}
+
+a{
+	font-size: 18px;
+	color: rgba(255,255,255,0.9);
+	text-align: right;
+	padding: 50px;
+	postion: absolute;
+		bottom: 0;
+}
+
+</style>
+
+<body>
+
+
+	<div class="content">
+
+		<!--HEADER-->
+
+		<div><h1>100 Poems</h1>
+			<h2 style="text-align: center;font-size: 50px;margin-top:0">& 100 paintings</h2>
+			<br>
+			<hr class="white"><hr class="white"></div>
+		</div>
+
+		<div class="advent-calendar">
+			<div class="box" style="background-color: #77847d;">
+				<div class="innertext-top">1. Ash Wednesday Part 1,<br> T.S. Eliot </div>
+				<div class="innertext-bottom"><br>Monk by the Sea,<br> Caspar Friedrich<a href="1.html"><span></span></a></div>
+				</div>
+			<div class="box" style="background-color: #92814a;">
+				<div class="innertext-top">2. Enough,<br> Emily Dickinson</div>
+				<div class="innertext-bottom"><br>Pia de Tolomei, <br>Dante Rossetti<a href="2.html"><span></span></a></div>
+			</div>
+			<div class="box" style="background-color: #41422a;">
+				<div class="innertext-top">3. The Tyger,<br> William Blake</div>
+				<div class="innertext-bottom"><br>The Dream, <br>Jacques Rousseau<a href="3.html"><span></span></a></div>
+			</div>
+			<div class="box" style="background-color: #b18a6e;">
+				<div class="innertext-top">4. Talking in Bed,<br>Philip Larkin</div>
+				<div class="innertext-bottom"><br>David Garnett in Profile, <br>Duncan Grant<a href="4.html"><span></span></a></div>
+			</div>
+			<div class="box" style="background-color: #918f86;">
+				<div class="innertext-top">5. Haiku from Narrow Road to Oku,<br> Matsuo Bashō</div>
+				<div class="innertext-bottom"><br>Maples at Mama,<br> Utagawa Hiroshige<a href="5.html"><span></span></a></div>
+			</div>
+			<div class="box" style="background-color: #702406;">
+				<div class="innertext-top">6. Lady Lazarus,<br>Sylvia Plath</div>
+				<div class="innertext-bottom"><br>Nacer de Nuevo,<br> Remedios Varo<a href="6.html"><span></span></a></div>
+			</div>
+			<div class="box" style="background-color: #433a2f;">
+				<div class="innertext-top">7. Spectroscope,<br>Norman MacCaig</div>
+				<div class="innertext-bottom"><br>Around the Circle,<br> Wassily Kandinsky<a href="7.html"><span></span></a></div>
+			</div>
+			<div class="box" style="background-color: #7e857b;">
+				<div class="innertext-top">8. Quiet Nights,<br>Raymond Carver</div>
+				<div class="innertext-bottom"><br>María en la Playa de Biarritz o Contraluz,<br> Joaquín Sorolla<a href="8.html"><span></span></a></div>
+			</div>
+			<div class="box" style="background-color: #776655;">
+				<div class="innertext-top">9. The Ghost,<br>Charles Baudelaire</div>
+				<div class="innertext-bottom"><br>Galathea,<br> Gustave Moreau<a href="9.html"><span></span></a></div>
+			</div>
+			<div class="box" style="background-color: #4f5144;">
+				<div class="innertext-top">10. The Night,<br>Emily Brontë</span></a></div>
+				<div class="innertext-bottom"><br>Winter Landscape,<br> Remi van Haanen<a href="10.html"><span></span></a></div>
+				</div>
+			<div class="box" style="background-color: #5e5a66;">
+				<div class="innertext-top">11. Why I Loved Him,<br>Camonghe Felix</span></a></div>
+				<div class="innertext-bottom"><br>Carnation,<br>  John Singer Sargent<a href="11.html"><span></span></a></div>
+			</div>
+			<div class="box" style="background-color: #c5b9b3;">
+				<div class="innertext-top">12. Horse Child Breakfast,<br>Richard Brautigan</span></a></div>
+				<div class="innertext-bottom"><br>The Hobo,<br>&nbsp;&nbsp;&nbsp;&nbsp;John Currin<a href="12.html"><span></span></a></div>
+			</div>
+			<div class="box" style="background-color: #c4b59b;">
+				<div class="innertext-top">13. Drinking Alone Under The Moon,<br>Li Bao</span></a></div>
+				<div class="innertext-bottom"><br>Bamboo, Plum Blossoms and Moon,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gao Qipei<a href="13.html"><span></span></a></div>
+			</div>
+			<div class="box" style="background-color: #d2cebf;">
+				<div class="innertext-top">14. Tichborne’s Elegy,<br>Chidiock Tichborne</span></a></div>
+				<div class="innertext-bottom"><br>The Flower of Pain,<br>  Edvard Munch<a href="14.html"><span></span></a></div>
+			</div>
+			<div class="box" style="background-color: #516c74;">
+				<div class="innertext-top">15. Bluebird,<br>Charles Bukowski</span></a></div>
+				<div class="innertext-bottom"><br>Woman with a Birdcage,<br> József Rippl-Rónai<a href="15.html"><span></span></a></div>
+			</div>
+
+		</div>
+
+	<!--DIVIDER-->
+		<hr class="white" style="margin-top:0; margin-bottom:15px">
+		<hr class="white" style="margin-top:0; margin-bottom:15px">
+		<br>
+
+
+
+</body>

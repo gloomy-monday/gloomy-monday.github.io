@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<head>
+	<title>100 Poems</title>
+	<link rel="icon" type="image/x-icon" href="icon.png">
+</head>
+
+<!--
+
+Crema fondo: #dad7c8
+Crema oscuro: #a3a08e
+Azul árbol: #6193ac
+Blanco: #e8e8e8
+Azul oscuro: #39667d
+
+
+-->
+
+<style>
+
+::-webkit-scrollbar{
+	width: 0px;
+}
+
+::-webkit-scrollbar-track{
+	background: #dad7c8;
+}
+
+::-webkit-scrollbar-thumb{
+	background: #a3a08e;
+}
+
+hr.white{
+	border-top: 5px solid white;
+	margin-top: 15px;
+	margin-bottom: 0px;
+}
+
+
+body{
+	background-color: #6193ac;
+	margin: 0px;
+}
+
+
+h1{
+	font-family: georgia;
+	font-style: oblique;
+	font-variant: small-caps;
+	font-size: 100px;
+	text-align: center;
+	color: white;
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: #39667d;
+	margin-bottom: 0px;
+}
+
+h2{
+	font-family: georgia;
+	font-style: oblique;
+	font-size: 60px;
+	color: white;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: #39667d;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+h3{
+	font-family: times new roman;
+	font-style: italic;
+	font-size: 30px;
+	color: rgba(255,255,255,0.8);
+	outline-offset: 10px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+
+#bg-sections{
+	display: block;
+		width: 1400px;
+		height: 752px;
+	background-image: url(sec.jpg);
+	background-repeat: repeat-x;
+	background-size: cover;
+}
+
+#bg-header{
+	display: block;
+		width: 1400px;
+		height: 1400px;
+	background-image: url(header.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+		top: 0;
+		left: 0;
+}
+
+#wrapper{
+	position: relative;
+	height: auto;
+	width: auto;
+	overflow: hidden;
+}
+
+.content{
+	color: white;
+	font-size: 26px;
+	font-weight: bold;
+	position: relative;
+	z-index: 100;
+}
+
+.background{
+	position: absolute;
+	z-index: -100;
+}
+
+.clear{
+	clear: both;
+}
+
+.poem-grid{
+	display: grid;
+	grid-template-columns: minmax(min-content, 600px) 1fr;
+	grid-template-rows: 730px;
+	background-color: black;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.poem-grid-1 > div{
+	border: 5px;
+	border-color: black;
+}
+
+
+.poem-text{
+	display: block;
+	background-color: rgba(57,102,125,0.8);
+	width: 600px;
+	padding: 40px;
+	padding-top: 100px;
+	overflow-y: scroll;
+}
+
+.poem-info{
+	margin: 0px;
+	overflow: hidden;
+	position: relative;
+}
+
+.poem-desc{
+	display: block;
+	text-align: right;
+	padding: 40px;
+	padding-top: 10px;
+}
+
+.poem-art{
+	display: block;
+	background-color: #a3a08e;
+	text-align: center;
+	padding: 10px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: minmax(min-content,400px);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: times new roman;
+	font-color: rgba(255,255,255,0.6);
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+
+
+#button-panel{
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
+	margin: 20px;
+	text-align: center;
+}
+
+button{
+	background-color: #39667d;
+	border: 0px;
+	width: 100px;
+	height: 50px;
+}
+
+a{
+	font-family: times new roman;
+	color: white;
+	font-size: 20px;
+}
+
+a:link{
+	text-decoration: none;
+}
+
+p{
+	font-family: times new roman;
+	font-color: rgba(255,255,255,1);
+	font-size: 20px;
+	letter-spacing: 2px;
+	line-height: 33px;
+	background: -webkit-linear-gradient(rgba(255,255,255,1),rgba(255,255,255,0.5));
+	-webkit-background-clip:  text;
+	-webkit-text-fill-color: transparent;
+}
+
+</style>
+
+<body>
+
+<div id="wrapper">
+
+	<div class="content">
+
+		<!--HEADER-->
+
+		<div><h1>100 Poems</h1>
+			<h2 style="text-align: center;font-size: 50px;margin-top:0">& 100 paintings</h2>
+			<br>
+			<hr class="white"><hr class="white"></div>
+
+		<!--LADY LAZARUS-->
+
+		<div class="poem-grid" style="background-image: url(./paintings/nacerdenuevo.jpg)">
+
+			<div class="poem-text" style="text-align:left;">
+					<p>I have done it again.<br>  
+					One year in every ten<br>  
+					I manage it——<br>  
+					<br>
+					A sort of walking miracle, my skin<br>   
+					Bright as a Nazi lampshade,<br>   
+					My right foot<br>
+					<br>
+					A paperweight,<br>
+					My face a featureless, fine<br>   
+					Jew linen.<br>
+					<br>
+					Peel off the napkin<br> 
+					O my enemy.<br>   
+					Do I terrify?——<br>
+					<br>
+					The nose, the eye pits, the full set of teeth?<br>   
+					The sour breath<br>
+					Will vanish in a day.<br>
+					<br>
+					Soon, soon the flesh<br>
+					The grave cave ate will be<br> 
+					At home on me<br>
+					<br>
+					And I a smiling woman.<br>   
+					I am only thirty.<br>
+					And like the cat I have nine times to die.<br>
+					<br>
+					This is Number Three.<br>   
+					What a trash<br>
+					To annihilate each decade.<br>
+					<br>
+					What a million filaments.<br>   
+					The peanut-crunching crowd<br>  
+					Shoves in to see<br>
+					<br>
+					Them unwrap me hand and foot——<br>
+					The big strip tease.<br>   
+					Gentlemen, ladies<br>
+					<br>
+					These are my hands<br>   
+					My knees.<br>
+					I may be skin and bone,<br>
+					<br>
+					Nevertheless, I am the same, identical woman.<br>   
+					The first time it happened I was ten.<br>   
+					It was an accident.<br>
+					<br>
+					The second time I meant<br>
+					To last it out and not come back at all.<br>   
+					I rocked shut<br>
+					<br>
+					As a seashell.<br>
+					They had to call and call<br>
+					And pick the worms off me like sticky pearls.<br>
+					<br>
+					Dying<br>
+					Is an art, like everything else.<br>   
+					I do it exceptionally well.<br>
+					<br>
+					I do it so it feels like hell.<br>   
+					I do it so it feels real.<br>
+					I guess you could say I’ve a call.<br>
+					<br>
+					It’s easy enough to do it in a cell.<br>
+					It’s easy enough to do it and stay put.<br>   
+					It’s the theatrical<br>
+					<br>
+					Comeback in broad day<br>
+					To the same place, the same face, the same brute<br>   
+					Amused shout:<br>
+					<br>
+					‘A miracle!’<br>
+					That knocks me out.<br> 
+					There is a charge<br>
+					<br>
+					For the eyeing of my scars, there is a charge<br>   
+					For the hearing of my heart——<br>
+					It really goes.<br>
+					<br>
+					And there is a charge, a very large charge<br>   
+					For a word or a touch<br>   
+					Or a bit of blood<br>
+					<br>
+					Or a piece of my hair or my clothes.<br>   
+					So, so, Herr Doktor.<br>   
+					So, Herr Enemy.<br>
+					<br>
+					I am your opus,<br>
+					I am your valuable,<br>   
+					The pure gold baby<br>
+					<br>
+					That melts to a shriek.<br>   
+					I turn and burn.<br>
+					Do not think I underestimate your great concern.<br>
+					<br>
+					Ash, ash—<br>
+					You poke and stir.<br>
+					Flesh, bone, there is nothing there——<br>
+					<br>
+					A cake of soap,<br>   
+					A wedding ring,<br>   
+					A gold filling.<br>
+					<br>
+					Herr God, Herr Lucifer<br>   
+					Beware<br>
+					Beware.<br>
+					<br>
+					Out of the ash<br>
+					I rise with my red hair<br>  
+					And I eat men like air.<br></p>
+				</div>
+
+				<div class="poem-info"> 
+					<div class="poem-desc">
+					<h2>6. Lady Lazarus</h2>
+					<h3>Sylvia Plath</h3></div>
+
+			<div class="poem-art" style="font-size:18px"><span style="font-style: italic">Nacer de nuevo</span>, Remedios Varo</div>
+			</div></div>
+
+		<!--DIVIDER-->
+		<hr class="white" style="margin-top:0; margin-bottom:15px">
+		<hr class="white" style="margin-top:0; margin-bottom:15px">
+
+		<!--BUTTONS-->
+		<div id="button-panel">
+			<div><a href="5.html"><img src="left-arrow.gif"></a></div>
+			<div><button><a href="index.html">Index</a></button></div>
+			<div><a href="7.html"><img src="right-arrow.gif"></a></div>
+</body>
