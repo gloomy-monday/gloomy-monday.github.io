@@ -1,0 +1,73 @@
+:root{
+	--bg: #e3e3db;
+	--h1: #ee85a6;
+	--text: #85847d;
+}
+
+html{
+	width: 100vw;
+	height: 100vh;
+}
+
+body{
+	background-color: var(--h1);
+	background-image: url(tile-1.png);
+	background-repeat: repeat;
+	display: grid;
+	grid-template-columns: 1fr 6fr 1fr;
+	grid-template-rows: auto;
+	width: 100%;
+	height: 100vh;
+	margin: 0;
+}
+
+body > *{
+	grid-column: 2;
+	margin: 4em;
+	background-color: var(--bg);
+}
+
+hr{
+	width: 60%;
+}
+
+header{
+	margin: auto;
+}
+
+h1{
+	color: var(--h1);
+	font-size: 2.8em;
+	font-style: italic;
+	font-weight: 400;
+	font-family: 'Aguafina Script', cursive;
+	letter-spacing: 0.5rem;
+	text-align: center;
+	margin: 0.1em;
+}
+
+p{
+	color: var(--text);
+	font-family: times new roman;
+	font-style: italic;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+.wrapper{
+	padding: 2em;
+	padding-top: 4em;
+	padding-bottom: 4em;
+}
+
+@media screen and (max-width 750px){
+
+body{
+	margin: 0;
+	grid-template-columns: 1fr;
+}
+
+body > *{
+	grid-column: 1;
+}
+}
