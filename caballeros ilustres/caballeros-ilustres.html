@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<head>
+	<title>Caballeros Ilustres</title>
+	<link rel="icon" type="image/x-icon" href="icon.png">
+	<link rel="stylesheet" href="caballeros-ilustres.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="data.js"></script>
+	<!-- Include Handlebars from a CDN -->
+	<script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+<!--This is our template. -->
+<!--Data will be inserted in its according place, replacing the brackets.-->
+<script id="address-template" type="text/x-handlebars-template">
+
+<h2>Sir {{random name}}, el {{random title}}</h2>
+<p>Oriundo de {{random place}} {{random adj}}, ejerció el noble oficio de la caballería.
+<br>
+<br>
+{{random story}}. Por desgracia, {{random outcome}}.
+<br>
+<br>
+Que Dios se apiade de su alma.</p>
+
+</script>
+
+<!--Your new content will be displayed in here-->
+<body>
+<img id="statue" src="statue.png">
+<div class="wrapper">
+<header>
+	<h1>Caballeros<br> ilustres</h1>
+	<hr>
+</header>
+
+<main>
+<button onclick="oleole()">Ver lápida</button>
+<br>	
+<div class="content-placeholder"></div>
+
+</main>
+</body>
+
+<script>
+function oleole() {
+  // Grab the template script
+  var theTemplateScript = $("#address-template").html();
+
+Handlebars.registerHelper('random', function (array) {
+	const random = Math.floor(Math.random() * array.length);
+    return array[random]
+})
+
+  // Compile the template
+  var theTemplate = Handlebars.compile(theTemplateScript);
+
+
+  // Pass our data to the template
+  var theCompiledHtml = theTemplate(context);
+
+  // Add the compiled html to the page
+  $('.content-placeholder').html(theCompiledHtml);
+  $('.content-placeholder').fadeIn(1200);
+};
+
+
+function more(){
+		$('[title~=p1]').fadeIn(1200);
+	}
+
+function next(){
+		$('[title~=p2]').fadeIn(1200);
+	}
+
+</script>
