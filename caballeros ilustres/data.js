@@ -75,7 +75,8 @@
     "Solitario",
     "Loco",
     "Santo",
-    "Putrefacto"
+    "Putrefacto",
+    "Curioso"
   ],
 
     place: [
@@ -89,7 +90,14 @@
     "Castillo",
     "Fuerte",
     "Llano",
-    "Monasterio"
+    "Monasterio",
+    "Refugio",
+    "Campo",
+    "Pozo",
+    "Río",
+    "Pico",
+    "Istmo",
+    "Archipiélago"
   ],
 
     adj: [
@@ -109,7 +117,10 @@
     "de la Noche Perpetua",
     "Arrasado",
     "Solitario",
-    "Pútrido"
+    "Pútrido",
+    "Frío",
+    "Sombrío",
+    "Inmortal"
   ],
 
     story: [
@@ -124,10 +135,20 @@
     "Luchó con valía en una cruenta guerra contra su propia familia",
     "Siempre trató de prestar su ayuda a los más débiles",
     "Fue conocido por su recto carácter y gran hontestidad",
-    "Era amado profundamente por todas las gentes del pueblo gracias",
+    "Era amado profundamente por todas las gentes del pueblo",
     "Acabó con el último dragón del reino sin apenas ayuda",
     "Su inigualable ingenio le hacía la envidia de palacio",
-    "Jamás se perturbó ni ante la mayor tragedia"
+    "Jamás se perturbó ni ante la mayor tragedia",
+    "Decapitó a una bestia que aterrorizaba su tierra",
+    "Destronó a un tirano que usurpaba el trono de su legítimo dueño",
+    "Se contaba de él que jamás conoció la derrota",
+    "Salió victorioso de más de cien batallas",
+    "Querido en su tierra y estimado por sus gentes",
+    "Volvió a la vida en dos ocasiones, llegando a la edad de 130 años",
+    "Descubrió una ciudad que se creía de leyenda",
+    "Halló un tesoro hundido y jamás reveló su paradero",
+    "Alardeaba de haberse batido en duelo con el mismísimo Diablo",
+    "Evitó numerosas batallas gracias a su don para la diplomacia"
   ],
 
     outcome: [
@@ -146,6 +167,23 @@
     "un hechizo le mantuvo cautivo el resto de sus días en un castillo abandonado",
     "fue atacado por bestias feroces durante un paseo matutino",
     "sufrió lo que no puede si no describirse como ira de Dios",
-    "fue empalado al caerse accidentalmente sobre su propia espada"
+    "fue empalado al caerse accidentalmente sobre su propia espada",
+    "se perdió su rastro en los confines del mundo",
+    "naufragó en una tierra desconocida",
+    "cayó en un agujero sin fondo",
+    "fue alcanzado por un relámpago el día del nacimiento de su único hijo",
+    "falleció a manos de un hombre desarmado",
+    "murió estando preso en una solitaria celda",
+    "fue decapitado y su cabeza llevada como trofeo a una tierra lejana",
+    "conoció un destino aciago al venturarse a la mar",
+    "fue injustamente apresado por un crimen que no cometió",
+    "conoció la muerte a manos de un ingenio mecánico",
+    "fue hechizado olvidando así su identidad y antiguas gestas",
+    "fue envenenado por error durante un banquete en palacio para celebrar su llegada",
+    "cayó aparatosamente de su caballo hieríendose mortalmente",
+    "murió a causa de una infección en una pequeña herida sin importancia",
+    "murió pobre víctima de sus vicios",
+    "fue endemoniado sin poder volver a sentir paz"
   ]
+
 }
