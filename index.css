@@ -76,8 +76,9 @@ h1{
 h2{
 	color: var(--text);
 	font-size: 1.5em;
-	font-weight: 500;
-	font-family: 'Aguafina Script', cursive;
+	font-weight: 700;
+	font-family: times new roman;
+	font-variant: small-caps;
 	letter-spacing: 0.5rem;
 	text-align: center;
 	margin: 0.1em;
@@ -87,12 +88,12 @@ p{
 	color: var(--text);
 	font-family: times new roman;
 	font-style: italic;
-	font-size: 0.8em;
+	font-size: 1.2em;
 	text-align: center;
 }
 
 header > p{
-	font-size: 1.2em;
+	font-weight: 800;
 }
 
 a{
@@ -105,6 +106,10 @@ a{
 	padding-top: 4em;
 	padding-bottom: 4em;
 	border: 0.2em dotted var(--text);
+}
+
+.flowers{
+	font-size: 1.4rem;
 }
 
 div.info{
@@ -120,10 +125,10 @@ div.info{
 
 body{
 	margin: 0;
-	grid-template-columns: 1fr;
+	display: block;
 }
 
-body > *{
-	grid-column: 1;
+.flowers{
+	display: none;
 }
 }
