@@ -28,18 +28,72 @@
     "Aliduke",
     "Arnold",
     "Gravaunt",
-    "Astamor"
+    "Astamor",
+    "Mordred",
+    "Blachovsky",
+    "Bran",
+    "Bogdemogus",
+    "Le Cure Hardi",
+    "Breunor",
+    "Noire",
+    "Cardok",
+    "Clarrus",
+    "Dagonet",
+    "Degrane",
+    "Dinadan",
+    "Durnore",
+    "Edward",
+    "Fergus",
+    "Galahatine",
+    "Galibard",
+    "Galleron",
+    "Gareth",
+    "Florence",
+    "Griflet",
+    "Harry",
+    "Gumerette",
+    "Hector",
+    "Hectimere",
+    "Herber",
+    "Heline",
+    "Ibic",
+    "Ironside",
+    "Lavaine",
+    "Kainus",
+    "Lamiel",
+    "Lucan",
+    "Maliagunt",
+    "Menaduke",
+    "Owein",
+    "Nanowne",
+    "Ozanna",
+    "Palomides",
+    "Pertolepe",
+    "Persant",
+    "Sadok",
+    "Sagramore",
+    "Segwarides",
+    "Sevrus",
+    "Sentraille",
+    "Uwain",
+    "Villians",
+    "Wingates",
+    "Bryan"
+
   ],
 
     title: [
     "Desaparecido",
     "Desterrado",
     "Olvidado",
+    "Enamorado",
     "Encantado",
     "Encantador",
     "Soberbioso",
     "Corrompido",
     "Triste",
+    "Extranjero",
+    "la Floresta",
     "Alegre",
     "Eterno",
     "Maldito",
@@ -49,6 +103,7 @@
     "Invencible",
     "Amable",
     "Astuto",
+    "Bufón",
     "Imberbe",
     "Huidizo",
     "Cobarde",
@@ -72,11 +127,18 @@
     "Noble",
     "Erudito",
     "Ingenioso",
+    "Generoso",
     "Solitario",
     "Loco",
     "Santo",
     "Putrefacto",
-    "Curioso"
+    "Curioso",
+    "Salvaje",
+    "Herido",
+    "Impetuoso",
+    "Manoshermosas",
+    "de la Cota de Malla Deforme",
+    "Joven Muerto"
   ],
 
     place: [
@@ -120,7 +182,8 @@
     "Pútrido",
     "Frío",
     "Sombrío",
-    "Inmortal"
+    "Inmortal",
+    "Salvaje"
   ],
 
     story: [
@@ -148,7 +211,14 @@
     "Descubrió una ciudad que se creía de leyenda",
     "Halló un tesoro hundido y jamás reveló su paradero",
     "Alardeaba de haberse batido en duelo con el mismísimo Diablo",
-    "Evitó numerosas batallas gracias a su don para la diplomacia"
+    "Evitó numerosas batallas gracias a su don para la diplomacia",
+    "Antiguo bufón que fue nombrado caballero a modo de broma",
+    "Tomó una espada mágica de la montura de una damisela y no la devolvió",
+    "Vestía con el abrigo de su padre, aún manchado en sangre, el cuál juró que no se quitaría hasta vengarle",
+    "Recibió el escudo de un caballero fallecido y se ofreció a seguir con la misión que el otro no pudo completar",
+    "Era el hijo ilégitimo nunca aceptado de un miembro de la nobleza",
+    "Propenso a la ira, cuando no batallaba tenía hambre y se sentía mal",
+    "Era el hijo virtuoso de un rey villano"
   ],
 
     outcome: [
@@ -183,7 +253,10 @@
     "cayó aparatosamente de su caballo hieríendose mortalmente",
     "murió a causa de una infección en una pequeña herida sin importancia",
     "murió pobre víctima de sus vicios",
-    "fue endemoniado sin poder volver a sentir paz"
+    "fue endemoniado sin poder volver a sentir paz",
+    "murió en la guerra que provocó por revelar el adulterio de la reina",
+    "su enemigo tuvo la compasión de no luchar contra él al verlo tan herido, pero no pudo hacer nada para salvarlo",
+    "trató de coronarse rey y fue asesinado por los guardias"
   ]
 
 }
