@@ -99,3 +99,66 @@ p {
 	font-family: consolas;
 	font-size: 25px;
 }
+
+@media screen and (max-width: 750px) {
+
+	h1 {
+		font-size: 30px;
+
+	}
+	main > img {
+		display: none;
+	}
+
+
+	body {
+		grid-template-rows: min-content min-content min-content;
+		grid-template-columns: 1fr;
+		grid-template-areas: "head"
+							"frame"
+							"main";
+		width: 100vw;
+		heigth: 100vh;
+	}
+
+	body > #frame {
+		width: 600px;
+		height: 410px;
+	}
+
+
+	#layer1, #layer2 {
+		position: static;
+	}
+
+	#layer1 > img, #layer2 > img {
+		width: 100vw;
+	}
+
+	.quotecontainer {
+	background-image: url('quotebg.png');
+	background-size: contain;
+	padding: 0;
+	width: 386px;
+	height: 372px;
+	margin: auto;
+}
+
+.quotecontainer > * {
+	display: block;
+	margin-left: 60px;
+	margin-right: 30px;
+}
+
+#quote {
+	color: var(--electricblue);
+	font-family: consolas;
+	font-size: 18px;
+}
+
+#source {
+	color: var(--bg);
+	font-size: 16px;
+}
+
+}
