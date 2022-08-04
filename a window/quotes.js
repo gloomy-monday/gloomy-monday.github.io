@@ -108,5 +108,34 @@ var quotes = {
 		"You can't depend on people who just let things happen.",
 		"Commonplace things can be fascinating.",
 		"Silence settles around us, each of us wanders his own way, and yet we all meet by the sea in the peaceful sunset.",
-		"There is nothing sentimental about this world. Like the weather, this world asks only to be acknowledged."]
+		"There is nothing sentimental about this world. Like the weather, this world asks only to be acknowledged."],
+
+	"Gravity and Grace, Simone Weil" : [
+		"Love of God is pure when joy and suffering inspire an equal degree of gratitude.",
+		"Absolutely unmixed attention is prayer.",
+		"Two prisoners whose cells adjoin communicate with each other by knocking on the wall. The wall is the thing which separates them but it is also their means of communication. Every separation is a link.",
+		"He who has not God in himself cannot feel His absence.",
+		"You could not be born at a better period than the present, when we have lost everything.",
+		"Stars and blossoming fruit trees: Utter permanence and extreme fragility give an equal sense of eternity.",
+		"If we love God while thinking that he does not exist, he will manifest his existence.",
+		"Time’s violence rends the soul; by the rent eternity enters.",
+		"To love purely is to consent to distance, it is to adore the distance between ourselves and that which we love.",
+		"If we know in what way society is unbalanced, we must do what we can to add weight to the lighter scale.",
+		"Distance is the soul of the beautiful.",
+		"Friendship is not to be sought, not to be dreamed, not to be desired; it is to be exercised (it is a virtue).",
+		"Purity is the power to contemplate defilement.",
+		"It is impossible to forgive whoever has done us harm if that harm has lowered us. We have to think that it has not lowered us, but has revealed our true level.",
+		"Monotony is the most beautiful or the most atrocious thing. It is time surpassed or time sterilized.",
+		"The reality of the world is the result of our attachment.",
+		"Money, mechanization, algebra. The three monsters of contemporary civilization."],
+
+	"Eros the Bittersweet, Anne Carson" : [
+		"To be running breathlessly, but not yet arrived, is itself delightful, a suspended moment of living hope.",
+		"The words we read and words we write never say exactly what we mean.",
+		"A thinking mind is not swallowed up by what it comes to know.",
+		"When you are falling in love it is always already too late.",
+		"Sappho begins with a sweet apple and ends in infinite hunger.",
+		"All lovers believe they are inventing love.",
+		"Love does not happen without loss of vital self. The lover is the loser. Or so he reckons.",
+		"Jealousy is a dance in which everyone moves, for it is the instability of the emotional situation that preys upon a jealous lover's mind."]
 }
