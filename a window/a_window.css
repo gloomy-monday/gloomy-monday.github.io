@@ -1,0 +1,101 @@
+:root {
+	--bg: #fff2d7;
+	--titlered: #e52e2e;
+	--header: #854f4a;
+	--rememberpink: #eeb697;
+	--electricblue: #272bc8;
+}
+
+body {
+	display: grid;
+	background-color: var(--bg);
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 6fr;
+	grid-template-areas: "head head"
+						 "main frame";
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+body > header {
+	grid-area: head;
+	background-color: var(--header);
+}
+
+body > main {
+	grid-area: main;
+	margin: 20px;
+	position: relative;
+}
+
+main > img {
+	position: absolute;
+		right: 0;
+		top: 0;
+	z-index: 0;
+}
+
+body > #frame {
+	grid-area: frame;
+	display: block;
+	position: relative;
+	height: 650px;
+	width: 978px;
+
+}
+
+#layer1 {
+	background-color: white;
+}
+#layer1, #layer2 {
+	position: absolute;
+		top: 0;
+		right: 0;
+}
+
+#today {
+	background-color: var(--bg);
+	color: var(--titlered);
+}
+
+#source {
+	color: var(--bg);
+	font-size: 20px;
+}
+
+.quotecontainer {
+	background-image: url('quotebg.png');
+	padding: 0;
+	width: 552px;
+	height: 532px;
+	position: absolute;
+	z-index: 100;
+}
+
+.quotecontainer > * {
+	display: block;
+	margin-left: 100px;
+	margin-right: 60px;
+}
+
+h1 {
+	color: var(--bg);
+	margin: 20px;
+	font-family: consolas;
+	font-size: 45px;
+}
+
+p {
+	font-family: consolas;
+	font-size: 35px;
+	color: var(--titlered);
+	margin-left: 80px;
+	margin-bottom: 0;
+}
+
+#quote {
+	color: var(--electricblue);
+	font-family: consolas;
+	font-size: 25px;
+}
