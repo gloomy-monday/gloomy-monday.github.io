@@ -1,0 +1,111 @@
+:root {
+	--notquitewhite: #fbfcfb;
+	--subtlebeige: #dbd8d3;
+	--spaderblue: #8d8ea0;
+	--pediablues: #474697;
+	--darkorder: #252527;
+	--lighterorder: #51505a;
+}
+
+h1 {
+	font-family: arial;
+	color: var(--pediablues);
+	font-variant: small-caps;
+	font-size: 3.5rem;
+	letter-spacing: 0.5rem;
+}
+
+h2 {
+	font-family: arial;
+	color: var(--notquitewhite);
+	font-variant: small-caps;
+	font-size: 2rem;
+	letter-spacing: 0.5rem;
+}
+
+p {
+	font-family: timesnewroman;
+	font-size: 1.3rem;
+	color: var(--darkorder);
+	padding: 3rem;
+	padding-top: 1rem;
+	text-align: justify;
+}
+
+header {
+	background-color: var(--notquitewhite);
+	grid-area: h;
+}
+
+header > h1 {
+	margin: 1.5rem;
+	margin-top: 4rem;
+}
+
+body {
+	background-color: var(--darkorder);
+	height: 100%;
+	display: grid;
+	grid-template-columns: 2fr;
+	grid-template-rows: 10rem 5fr;
+	grid-template-areas: "h n"
+						"m n";
+}
+
+nav {
+	background-color: var(--spaderblue);
+	grid-area: n;
+	width: 35rem;
+	display: inline-grid;
+}
+
+nav > span > img {
+	margin: 1.5rem;
+	margin-bottom: 0;
+}
+
+nav > h2 {
+	display: block;
+	text-align: center;
+}
+
+nav > p {
+	color: var(--notquitewhite);
+	padding: 2.5rem;
+	padding-top: 0;
+}
+
+main {
+  	background-color: var(--subtlebeige);
+  	grid-area: m;
+  }
+
+#movielist {
+  	display: none;
+  	grid-template-columns: repeat(auto-fill,300px);
+  	grid-template-rows: 1fr;
+  	margin: 2rem;
+  	grid-gap: 1rem;
+  }
+
+#movielist > * {
+	height: 436px;
+  	width: 300px;
+}
+
+#movielist > div > img {
+  	height: 436px;
+  	width: 300px;
+  	opacity: 60%;
+  	border: solid var(--darkorder) 2px;
+  }
+
+#movielist > div > img:hover {
+  	opacity: 100%;
+  }
+
+#screen {
+	background-image: url("crash-screen1.jpg");
+	width: 100%;
+	height: 500px;
+}
