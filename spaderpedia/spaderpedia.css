@@ -46,6 +46,7 @@ body {
 	background-color: var(--darkorder);
 	height: 100%;
 	display: grid;
+	margin: 0;
 	grid-template-columns: 2fr;
 	grid-template-rows: 10rem 5fr;
 	grid-template-areas: "h n"
@@ -56,7 +57,6 @@ nav {
 	background-color: var(--spaderblue);
 	grid-area: n;
 	width: 35rem;
-	display: inline-grid;
 }
 
 nav > span > img {
@@ -81,7 +81,7 @@ main {
   }
 
 #movielist {
-  	display: none;
+  	display: grid;
   	grid-template-columns: repeat(auto-fill,300px);
   	grid-template-rows: 1fr;
   	margin: 2rem;
@@ -106,6 +106,17 @@ main {
 
 #screen {
 	background-image: url("crash-screen1.jpg");
+	background-size: cover;
 	width: 100%;
-	height: 500px;
+	height: 600px;
+}
+
+.conclusion {
+	background-color: var(--lighterorder);
+	color: var(--subtlebeige);
+	font-weight: 400;
+}
+
+#moviereview {
+	display: none;
 }

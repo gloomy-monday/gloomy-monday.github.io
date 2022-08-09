@@ -2,7 +2,7 @@
 <html lang = "en">
 <head>
 	<title>La Spaderpedia</title>
-	<!--<link rel="icon" type="image/x-icon" href="icon.png">-->
+	<link rel="icon" type="image/x-icon" href="icon.png">
 	<link rel="stylesheet" href="spaderpedia.css">
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -11,14 +11,14 @@
 
 <body>
 
-<header>
+<header onclick="showDefault()">
 	<h1>La Spaderpedia</h1>
 </header>
 
 <nav>
 <span id="navpic"><img src="spaderphoto.png"></span>
 <h2 id="navtitle">¿Por qué James Spader?</h2>
-<p id="navtext">Sencillo. James Spader es guapísimo (por lo menos lo era en los 80 y los 90). Con su pelazo rubio tostado, su sonrisa vendecoches, su físico atlético y su aire como de que te escucha cuando hablas y te responde algo inteligente… Es difícil resistir a sus encantos. ¿Pero cuántos guapos de Hollywood hay? ¿Cuántos indistinguibles unos de otros? Pero ninguno es James Spader, eso está claro. Su <i>charm point</i> son esos ojos negros como una noche sin luna en ese cutis de estrella. Esos ojos que parecen puertas al vacío, inexpresivos como los de un pez en la lonja.<br> <br> 
+<p id="navtext">Sencillo. James Spader es guapísimo. Con su pelazo rubio tostado, su sonrisa vendecoches, su físico atlético y su aire como de que te escucha cuando hablas y te responde algo inteligente… Es difícil resistir a sus encantos. ¿Pero cuántos guapos de Hollywood hay? ¿Cuántos indistinguibles unos de otros? Pero ninguno es James Spader, eso está claro. Su <i>charm point</i> son esos ojos negros como una noche sin luna en ese cutis de estrella. Esos ojos que parecen puertas al vacío, inexpresivos como los de un pez en la lonja.<br> <br> 
 Spader es guapo pero algo siniestro. Muy siniestro, cuando quiere. Al parecer le interesa todo lo “raro” y elige los papeles que interpreta en base a eso. No en balde (y como se verá en esta lista), tiende a transitar las veredas de lo limítrofe a la vida en sociedad. Personajes con doble rasero, compulsiones sexuales anómalas, corrompidos por la seducción del mal… Curiosamente parece sentirse más cómodo cuando más recovecos tiene su personaje. Le vi en un telefilme para toda la familia y tenía pinta de estar en penitencia.<br><br> 
 Así que, acompañadme por esta paseo a través de la carrera de este señor hasta que básicamente encuentre algo mejor que hacer.</p>
 </nav>
@@ -27,16 +27,16 @@ Así que, acompañadme por esta paseo a través de la carrera de este señor has
 
 <section id="movielist">
 	<div id="m1" onclick="showReview('Crash')"><img src="crash.jpg"></div>
-	<div id="m2"><img src="secretary.jpg"></div>
-	<div id="m3"><img src="curtaincall.jpg"></div>
-	<div id="m4"><img src="badinfluence.jpg"></div>
-	<div id="m5"><img src="jacksback.jpg"></div>
-	<div id="m6"><img src="wolf.jpg"></div>
-	<div id="m7"><img src="sexlies.jpg"></div>
-	<div id="m8"><img src="blacklist.jpg"></div>
-	<div id="m9"><img src="whitepalace.jpg"></div>
-	<div id="m10"><img src="driftwood.jpg"></div>
-	<div id="m11"><img src="dreamlover.jpg"></div>
+	<div id="m2" onclick="showReview('Secretary')"><img src="secretary.jpg"></div>
+	<div id="m3" onclick="showReview('Curtain Call')"><img src="curtaincall.jpg"></div>
+	<div id="m4" onclick="showReview('Bad Influence')"><img src="badinfluence.jpg"></div>
+	<div id="m5" onclick="showReview('Jack\'s Back')"><img src="jacksback.jpg"></div>
+	<div id="m6" onclick="showReview('Wolf')"><img src="wolf.jpg"></div>
+	<div id="m7" onclick="showReview('Sex, Lies and Videotape')"><img src="sexlies.jpg"></div>
+	<div id="m8" onclick="showReview('The Blacklist')"><img src="blacklist.jpg"></div>
+	<div id="m9" onclick="showReview('White Palace')"><img src="whitepalace.jpg"></div>
+	<div id="m10" onclick="showReview('Driftwood')"><img src="driftwood.jpg"></div>
+	<div id="m11" onclick="showReview('Dream Lover')"><img src="dreamlover.jpg"></div>
 </section>
 
 <section id="moviereview">
