@@ -137,5 +137,29 @@ var quotes = {
 		"Sappho begins with a sweet apple and ends in infinite hunger.",
 		"All lovers believe they are inventing love.",
 		"Love does not happen without loss of vital self. The lover is the loser. Or so he reckons.",
-		"Jealousy is a dance in which everyone moves, for it is the instability of the emotional situation that preys upon a jealous lover's mind."]
+		"Jealousy is a dance in which everyone moves, for it is the instability of the emotional situation that preys upon a jealous lover's mind."],
+
+	"Moby Dick, Herman Melville" : [
+		"Wonderfullest things are ever the unmentionable; deep memories yield no epitaphs.",
+		"Why do you try to “enlarge” your mind? Subtilize it.",
+		"Jump from spar to spar, like a grasshopper in a May meadow.",
+		"Where your treasure is, there will your heart be also.",
+		"In everything imposingly beautiful, strength has much to do with the magic.",
+		"Of real knowledge there be little, yet of books there are a plenty.",
+		"So better is it to perish in that howling infinite, than be ingloriously dashed upon the lee.",
+		"It is a noble and heroic thing, the wind! who ever conquered it?",
+		"There are some enterprises in which a careful disorderliness is the true method.",
+		"A fine, boisterous something about everything",
+		"A good laugh is a mighty good thing, and rather too scarce a good thing; the more’s the pity.",
+		"Consider the subtleness of the sea; how its most dreaded creatures glide under water, unapparent for the most part.",
+		"All professions have their own little peculiarities of detail; so has the whale fishery.",
+		"All these things are not without their meanings.",
+		"In an instant’s compass, great hearts sometimes condense to one deep pang, the sum total of those shallow pains kindly diffused through feebler men’s whole lives.",
+		"Man’s insanity is heaven’s sense.",
+		"Yet is there hope. Time and tide flow wide.",
+		"The ancestry and posterity of Grief go further than the ancestry and posterity of Joy.",
+		"Though in many of its aspects this visible world seems formed in love, the invisible spheres were formed in fright.",
+		"It's a wicked world in all meridians.",
+		"There is no folly of the beast of the earth which is not infinitely outdone by the madness of men."
+		]
 }
