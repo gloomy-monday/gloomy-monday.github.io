@@ -150,7 +150,7 @@ var quotes = {
 		"It is a noble and heroic thing, the wind! who ever conquered it?",
 		"There are some enterprises in which a careful disorderliness is the true method.",
 		"A fine, boisterous something about everything",
-		"A good laugh is a mighty good thing, and rather too scarce a good thing; the more’s the pity.",
+		"A good laugh is a mighty good thing, and rather too scarce a good thing; the more's the pity.",
 		"Consider the subtleness of the sea; how its most dreaded creatures glide under water, unapparent for the most part.",
 		"All professions have their own little peculiarities of detail; so has the whale fishery.",
 		"All these things are not without their meanings.",

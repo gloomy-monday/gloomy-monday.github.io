@@ -39,11 +39,11 @@ fetch(openmeteo)
 function displayWeather (data){
 	const currentWeatherCode = data['hourly'].weathercode[0];
 	console.log(currentWeatherCode);
-	if (currentWeatherCode <= 4) {
+	if (currentWeatherCode <= 2) {
 		document.getElementById("layer2").innerHTML ="";
 			return currentWeather = "sunny";
 	};
-	if ( (currentWeatherCode > 4 && currentWeatherCode <= 35) || (currentWeatherCode >= 40 && currentWeatherCode <= 49) ) {
+	if ( (currentWeatherCode > 2 && currentWeatherCode <= 35) || (currentWeatherCode >= 40 && currentWeatherCode <= 49) ) {
 		document.getElementById("layer2").innerHTML ="<img src='cloudy.png'>";
 		return currentWeather = "cloudy";
 	};
