@@ -11,13 +11,14 @@ function showReview(movie) {
 	document.getElementById("moviereview").style.display = "block";
 	director = movieInfo[movie].director;
 	title = "<i>" + movie +"</i> " + "(" + movieInfo[movie].year + ")";
-	cast = movieInfo[movie].cast.join(', ');
+	cast = movieInfo[movie].cast.join('<li>','</li>');
 	poster = movieInfo[movie].poster;
 	review = movieInfo[movie].review;
 	screenshot = movieInfo[movie].screenshot;
 	document.getElementById("navpic").innerHTML = poster;
 	document.getElementById("navtitle").innerHTML = title;
-	document.getElementById("navtext").innerHTML = "<b>Director:</b> " + director + "<br><br> <b>Reparto:</b> " + cast;
+	document.getElementById("navtext").innerHTML = "<br><br><b>Director</b><br><ul><li> " + director + "</li></ul>" + 
+													"<br><b>Reparto</b><br><ul><li> " + cast + '</ul>';
 	document.getElementById("reviewtext").innerHTML = review;
 	document.getElementById("screen").style.backgroundImage = screenshot
 

@@ -178,4 +178,19 @@ const movieInfo = {
 		'el círculo de amigos cafres de James incluído el tío que da los peores consejos del mundo y el “canallita” de turno, el compinche del loquero que le llama por un nombre que no es el suyo pero ni le corrige porque para qué… En fin, un despropósito.<br><br><span class="conclusion">Conclusión: "A veces todo son pistas y lo que crees que es paranoia es en realidad una percepción agudizada".</span>' 
 	},
 
+	"2 Days in the Valley" : {
+		director : "John Herzfeld",
+		year : "1996",
+		cast : [ "Charlize Theron", "Teri Hatcher", "Danny Aiello", "Glenne Headly", "Paul Mazursky", "Eric Stoltz", "Marsha Mason" ],
+		poster: "<img style='height:567px;width:390px;margin:5rem;margin-top:7rem;margin-bottom:0' src='2days.jpg'>",
+		screenshot: "url('2days-screen.jpg')",
+		review: '¿A mí está película me gustó mucho? Lo pongo entre interrogaciones porque siempre veía esta peli al final de los rankings de Spaderpelículas. Me decidí a verla sólo porque en uno de ellos la describía como “potencial perdido”, algo que me sonaba más optimista que lo que pienso de otros filmes aquí reseñados.<br><br>Se nota'+
+		' que <i>2 Days in the Valley</i> se rodó en esa época noventera en la que la peña no paraba de pensar en lo muchísimo que molaba <i>Pulp Fiction</i> y en cómo de guay sería que hubiese otras mil pelis iguales.<br><br>Para cocinar estos sucedáneos hace falta: una ciudad decadente (el Valle, por ejemplo), que la trama se desarrolle en poco tiempo (dos días, pongamos) y que esté salpimentado al gusto con personajes estrafalarios.'+
+		' Y vaya que si esta película los tiene. Por orden de aparición: ex-pizzero mercenario en horas bajas, asesino a sangre fría sin escrúpulos (este es nuestro querido James), esquiadora olímpica sin medalla, <i>femme fatale</i> que siempre viste de blanco, ex-director con tendencias suicidas, su cuquísimo terrier, policía pelirrojo que simpatiza con las trabajadoras sexuales, su compañero que se parece a Ringo'+
+		' y que no simpatiza con las trabajadoras sexuales ni con las minorías en general, británico rico hijodeputa, su asistenta con Velma-<i>vibes</i> y, por último, enfermera a la que le hacen gracia películas de mierda.<br><br>La trama tiene como eje central un asesinato por encargo'+
+		' y todo se lía alrededor de eso. Y se lía bien. Tuve varios momentos de decir “ah” y otros de decir “AH”. Todo fluye de forma natural, con buen ritmo y aunque la película a veces no sea tan graciosa como quiere serlo, es lo suficientemente original y entretenida para que no importe demasiado. Está llena de pequeños detallitos con encanto, como que'+
+		' el personaje de James sea súper inteligente pero cuando está a punto de matar a una persona y se le atasca la pistola, le dice “espera un momento” y se cree de verdad que va a esperar. También tiene algunas frases fantásticas como la enunciada por nuestro británico rico hijodeputa cuando le echan en cara que es un tormento de hombre y él habla de sus'+
+		' humildes orígenes: “seré un hijo de puta, pero trabajé muy duro para convertirme en un hijo de puta”. Qué regalo.<br><br><span class="conclusion">Conclusión: en esta película mencionan Mulholland Drive (la calle) así que para mí es canon que sucede a la vez que la peli de Lynch, pero en un plano sensorial más normal. Por cierto, esta fue la primera peli de Charlize Theron.</span>'
+	}
+
 };

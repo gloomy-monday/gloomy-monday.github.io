@@ -32,6 +32,15 @@ p {
 	text-align: justify;
 }
 
+b {
+	font-weight: 1500;
+	font-size: 1.4rem;
+}
+
+ul {
+	list-style: none;
+}
+
 header {
 	background-color: var(--notquitewhite);
 	grid-area: h;
@@ -86,22 +95,23 @@ main {
   	grid-template-rows: 1fr;
   	margin: 2rem;
   	grid-gap: 1rem;
+  	animation: appear 2s;
   }
 
 #movielist > * {
 	height: 436px;
-  	width: 300px;
+  width: 300px;
 }
 
 #movielist > div > img {
   	height: 436px;
   	width: 300px;
   	opacity: 60%;
-  	border: solid var(--darkorder) 2px;
   }
 
 #movielist > div > img:hover {
   	opacity: 100%;
+  	border: solid var(--darkorder) 2px;
   }
 
 #screen {
@@ -119,4 +129,14 @@ main {
 
 #moviereview {
 	display: none;
+}
+
+@keyframes appear {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 100%;
+	}
 }
