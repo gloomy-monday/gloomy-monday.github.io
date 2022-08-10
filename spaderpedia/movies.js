@@ -4,7 +4,7 @@ const movieInfo = {
 		director : "David Cronenberg",
 		year : "1996",
 		cast : ["Deborah Kara Unger", "Elias Koteas", "Holly Hunter", "Rosanna Arquette"],
-		poster: "<img style='height:567px;width:390px;margin:8rem;margin-top:7rem;margin-bottom:0' src='crash.jpg'>",
+		poster: "<img style='height:567px;width:390px;margin:5rem;margin-top:7rem;margin-bottom:0;' src='crash.jpg'>",
 		screenshot: "url('crash-screen1.jpg')",
 		review: 'James Spader interpreta a James Ballard (el James menos guapo de los dos)' + 
 		' en esta adaptación de la novela homónima. Tras un accidente de coche, Ballard se convierte en la nueva incorporación' +
@@ -23,7 +23,7 @@ const movieInfo = {
 		director : "Steven Shainberg",
 		year : "2002",
 		cast : ["Maggie Gyllenhaal", "Jeremy Davies", "Lesley Ann Warren", "Stephen McHattie"],
-		poster: "<img style='height:567px;width:390px;margin:8rem;margin-top:7rem;margin-bottom:0' src='secretary.jpg'>",
+		poster: "<img style='height:567px;width:390px;margin:5rem;margin-top:7rem;margin-bottom:0' src='secretary.jpg'>",
 		screenshot: "url('secretary-screen.jpg')",
 		review : 'Versión corta: Cincuenta Sombras de Grey pero mejor. Versión larga: ...A ver. En esta película James Spader interpreta al señor Grey,'+
 		' (¿hola? ¿A alguien le suena?) un abogado de éxito con un constipado emocional como para ir a terapia y unas tendencias dominantes/sádicas como para ir'+
@@ -41,7 +41,7 @@ const movieInfo = {
 		director : "Peter Yates",
 		year : "1999",
 		cast : ["Michael Caine", "Maggie Smith", "Polly Walker" ],
-		poster: "<img style='height:567px;width:390px;margin:8rem;margin-top:7rem;margin-bottom:0' src='curtaincall.jpg'>",
+		poster: "<img style='height:567px;width:390px;margin:5rem;margin-top:7rem;margin-bottom:0' src='curtaincall.jpg'>",
 		screenshot: "url('curtaincall-screen.jpg')",
 		review : 'En esta película (¿navideña?) James Spader interpreta a un joven editor que se muda con su guapísima novia a un caserón que chán, chán, chán… Resulta estar encantado por los fantasmas de Michael Caine y Maggie Smith,'+
 		' el dúo pimpinela. Para rizar el rizo, James es el único que puede verlos, quedando a ojos del resto del mundo como un puto loco.<br><br>Pero Spader no tendrá que enfrentarse sólo a estos espectros, sino a la insistencia de compromiso de su novia y al cambio de rumbo del'+
@@ -71,7 +71,7 @@ const movieInfo = {
 		director : "Rowdy Herrington",
 		year : "1988",
 		cast : ["Cynthia Gibb", "Robert Picardo"],
-		poster: "<img style='height:567px;width:390px;margin:8rem;margin-top:7rem;margin-bottom:0' src='jacksback.jpg'>",
+		poster: "<img style='height:567px;width:390px;margin:5rem;margin-top:7rem;margin-bottom:0' src='jacksback.jpg'>",
 		screenshot: "url('jacksback-screen.jpg')",
 		review : 'Esta película comienza con una premisa intrigante: cien años tras los asesinatos de Jack el Destripador en Londres, un imitador comienza a recrear las mismas atrocidades en Los Ángeles. James Spader interpreta a John, un joven médico (un poco pillo, pero buen chaval) que,'+
 		' por una cuestión de mala suerte, descubre quién es el Jack que está Back y este lo mata colgándolo de una viga (¡oh no!). Pero entonces Spader se levanta de la cama y queda claro que es un sueño… ¿O no? ¡No! Porque este es Rick, el gemelo maloso de John.<br><br>Así que sí, en'+
@@ -88,7 +88,7 @@ const movieInfo = {
 		director : "Mike Nichols",
 		year : "1994",
 		cast : ["Jack Nicholson", "Michelle Pfeiffer", "Kate Nelligan", "Richaqrd Jenkins"],
-		poster: "<img style='height:567px;width:390px;margin:8rem;margin-top:7rem;margin-bottom:0' src='wolf.jpg'>",
+		poster: "<img style='height:567px;width:390px;margin:5rem;margin-top:7rem;margin-bottom:0' src='wolf.jpg'>",
 		screenshot: "url('wolf-screen.jpg')",
 		review : 'Esta peli va sobre editores que se convierten en hombres lobo y es tan ridículo como suena. Jack Nicholson hace de un editor viejuno al que le muerde un lobo negro que parece hecho en ArtAttack con alambre y pelusa (luego seguimos hablando'+
 		' de los (d)efectos especiales). Resulta que le viene bien, porque en la editorial le acababan de largar a un puesto de mierda porque un compañero suyo, James Spader, le había quitado el puesto camelándose al jefe. Gracias a'+
@@ -105,7 +105,7 @@ const movieInfo = {
 		director : "Steven Soderbergh",
 		year : "1989",
 		cast : ["Andie MacDowell", "Peter Gallagher", "Laura San Giacomo" ],
-		poster: "<img style='height:567px;width:390px;margin:8rem;margin-top:7rem;margin-bottom:0' src='sexlies.jpg'>",
+		poster: "<img style='height:567px;width:390px;margin:5rem;margin-top:7rem;margin-bottom:0' src='sexlies.jpg'>",
 		screenshot: "url('sexlies-screen.jpg')",
 		review : 'Hacía tanto que no veía una Spaderpelícula que fuese <i>buena</i>. En fin. Esta trata acerca de Ann, una mujer reprimida sexualmente casada con John, un imbécil que le está poniendo los cuernos con Cynthia, su propia hermana (de ella, claro).'+
 		' A este meollo llega Graham, un amigo del marido (este es Spader). John, que no le ha visto en nueve años, se encuentra con que su amigo se ha vuelto bastante raro: mucho más introvertido pero a la vez demasiado sincero. La cerecita sobre el pastel es su “proyecto personal”. Graba entrevistas que le hace a mujeres acerca de sus vidas sexuales y cuando '+
@@ -120,7 +120,7 @@ const movieInfo = {
 		director : "Jon Bokenkamp",
 		year : "2013-",
 		cast : ["Megan Boone", "Diego Klattenhoff", "Ryan Eggold", "Parminder Nagra", "Harry Lennix", "Amir Arison"],
-		poster: "<img style='height:567px;width:390px;margin:8rem;margin-top:7rem;margin-bottom:0' src='blacklist.jpg'>",
+		poster: "<img style='height:567px;width:390px;margin:5rem;margin-top:7rem;margin-bottom:0' src='blacklist.jpg'>",
 		screenshot: "url('blacklist-screen.jpg')",
 		review : 'Cansada de ver esta serie mencionada en cada entrevista a James Spader que veía, decidí darle un tiento (yo, que no soy muy de series). Y bueno, ya sólo por decir que me he visto la primera temporada entera se intuye que sí, que me gusta la serie. Como es relativamente reciente (¡sigue en emisión!), James está calvo (violines tristes) pero lo cierto es que da bastante igual. Sí, me estoy convirtiendo en esas señoras pesadas que a los comentarios de YouTube en'+
 		' plan “qué sexy era antes que tenía pelazo” responde con un enfático y poco creíble “¡todavía sigue siéndolo!”. Lo cierto es que este señor tiene carisma para dar y repartir: quiero decir, ya sólo los gestos y su dicción (ahora que lo pienso eso debe de ser el 90 por ciento de lo que viene siendo actuar), bueno pues ya sólo con eso encandila.'+
@@ -134,7 +134,7 @@ const movieInfo = {
 		director : "Luis Maridoki",
 		year : "1990",
 		cast : ["Susan Sarandon", "Jason Alexander", "Kathy Bates" ],
-		poster: "<img style='height:567px;width:390px;margin:8rem;margin-top:7rem;margin-bottom:0' src='whitepalace.jpg'>",
+		poster: "<img style='height:567px;width:390px;margin:5rem;margin-top:7rem;margin-bottom:0' src='whitepalace.jpg'>",
 		screenshot: "url('whitepalace-screen.jpg')",
 		review : 'En esta peli se juntan el hambre (leyenda de las pelis de sexo raro James Spader) con las ganas de comer (reina indiscutible de las MILFs Susan Sarandon). A pesar del horrendo título que le pusieron en la versión en español (¿<i>Pasión sin barreras</i>? ¿Hola? '+
 		'¿Título genérico número 67763?) lo cierto es que esta película no está ni medio mal. Está basada en un libro medio serio escrito por un judío y la historia va sobre un judío (guapísimo Spader) que perdió a su mujer hace un tiempo y todavía no lo ha superado. Se dedica a ser demasiado serio y taciturno por la vida, provocando bajona en la peña. '+
@@ -151,7 +151,7 @@ const movieInfo = {
 		director : "Ronan O'Leary",
 		year : "1997",
 		cast : [ "Anne Brochet", "Barry McGovern"],
-		poster: "<img style='height:567px;width:390px;margin:8rem;margin-top:7rem;margin-bottom:0' src='driftwood.jpg'>",
+		poster: "<img style='height:567px;width:390px;margin:5rem;margin-top:7rem;margin-bottom:0' src='driftwood.jpg'>",
 		screenshot: "url('driftwood-screen.jpg')",
 		review : 'Esta película va de una mujer con el acento francés más <i>baguette</i> del <i>monde</i> encontrándose a James Spader varado en la playa de una isla remota y pensando “me lo quedo” (¿y quién no?). El drama central es que James tiene amnesia y no sabe quién es (no te preocupes, querido espectador, tú tampoco lo sabes ni lo sabrás). '+
 		'Quiere ponerse en contacto cuanto antes con la civilización para ver cuál es la movida. Pero Sarah ha decidido secuestrarlo en nombre del amor. Quiero decir que la película tiene como nota cincos y seises raspadísimos por Internet, por lo que no esperaba ninguna joya. Sin embargo, me acabó gustando más de lo que pensaba. Ni que decir '+
@@ -166,7 +166,7 @@ const movieInfo = {
 		director : "Nicholas Kazan",
 		year : "1993",
 		cast : [ "Madchen Amick", "Bess Armstrong", "Frederic Lehne", "Larry Miller" ],
-		poster: "<img style='height:567px;width:390px;margin:8rem;margin-top:7rem;margin-bottom:0' src='dreamlover.jpg'>",
+		poster: "<img style='height:567px;width:390px;margin:5rem;margin-top:7rem;margin-bottom:0' src='dreamlover.jpg'>",
 		screenshot: "url('dreamlover-screen.jpg')",
 		review : '¿Sabías que esta fue la segunda y última película de este director antes de decir “nah, esto no es lo mío”? <i>Dream Lover</i>, curiosamente, tiene bastantes cosas en común con la última película reseñada, <i>Driftwood</i>: otra actriz competente'+
 		'haciendo lo que puede con un guión cutre (la apabullantemente bella Mädchen Amick), un papel soso para James Spader, una <i>aesthetic on point</i> (vestuario cortesía de Prada) y una relación tóxica como eje central.  Sí, estamos ante otra peli con una <i>female manipulator</i>. Y aunque hay historias fantásticas con este tipo de personajes (<i>Gone Girl</i>, por ejemplo) hay veces '+
