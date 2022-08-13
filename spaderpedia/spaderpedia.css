@@ -46,9 +46,9 @@ header {
 	grid-area: h;
 }
 
-header > h1 {
-	margin: 1.5rem;
-	margin-top: 4rem;
+
+header > img {
+	height: 10rem;
 }
 
 body {
@@ -64,6 +64,7 @@ body {
 
 nav {
 	background-color: var(--spaderblue);
+	background-image: url('tile.png');
 	grid-area: n;
 	width: 35rem;
 }
