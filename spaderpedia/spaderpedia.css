@@ -64,7 +64,7 @@ body {
 
 nav {
 	background-color: var(--spaderblue);
-	background-image: url('tile.png');
+	background-image: url('navtile.png');
 	grid-area: n;
 	width: 35rem;
 }

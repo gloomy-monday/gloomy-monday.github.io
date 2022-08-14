@@ -87,7 +87,7 @@ const movieInfo = {
 	"Wolf" : {
 		director : "Mike Nichols",
 		year : "1994",
-		cast : ["Jack Nicholson", "Michelle Pfeiffer", "Kate Nelligan", "Richaqrd Jenkins"],
+		cast : ["Jack Nicholson", "Michelle Pfeiffer", "Kate Nelligan", "Richard Jenkins"],
 		poster: "<img style='height:567px;width:390px;margin:5rem;margin-top:7rem;margin-bottom:0' src='wolf.jpg'>",
 		screenshot: "url('wolf-screen.jpg')",
 		review : 'Esta peli va sobre editores que se convierten en hombres lobo y es tan ridículo como suena. Jack Nicholson hace de un editor viejuno al que le muerde un lobo negro que parece hecho en ArtAttack con alambre y pelusa (luego seguimos hablando'+
@@ -169,7 +169,7 @@ const movieInfo = {
 		poster: "<img style='height:567px;width:390px;margin:5rem;margin-top:7rem;margin-bottom:0' src='dreamlover.jpg'>",
 		screenshot: "url('dreamlover-screen.jpg')",
 		review : '¿Sabías que esta fue la segunda y última película de este director antes de decir “nah, esto no es lo mío”? <i>Dream Lover</i>, curiosamente, tiene bastantes cosas en común con la última película reseñada, <i>Driftwood</i>: otra actriz competente'+
-		'haciendo lo que puede con un guión cutre (la apabullantemente bella Mädchen Amick), un papel soso para James Spader, una <i>aesthetic on point</i> (vestuario cortesía de Prada) y una relación tóxica como eje central.  Sí, estamos ante otra peli con una <i>female manipulator</i>. Y aunque hay historias fantásticas con este tipo de personajes (<i>Gone Girl</i>, por ejemplo) hay veces '+
+		' haciendo lo que puede con un guión cutre (la apabullantemente bella Mädchen Amick), un papel soso para James Spader, una <i>aesthetic on point</i> (vestuario cortesía de Prada) y una relación tóxica como eje central.  Sí, estamos ante otra peli con una <i>female manipulator</i>. Y aunque hay historias fantásticas con este tipo de personajes (<i>Gone Girl</i>, por ejemplo) hay veces '+
 		'que... Mira, lo voy a decir directamente: <i>un hombre ha escrito esta película y se nota</i>. Se entrevé la intención de Nicholas Kazan pero también su incompetencia.<br><br><i>Dream Lover</i> se supone que trata acerca de la superficialidad en el amor, cómo podemos engañarnos a nosotros mismos para creer que estamos enamorados, etcétera. '+
 		'Lena (Mädchen Amick) es preciosísima, agradable y todo lo que quieras pero desde el minuto uno empiezan a saltar las alarmas: cuando coincide por primera vez con Ray (James Spader) es super borde con él, pero al día siguiente es la chica más cariñosa del mundo. La segunda vez que se encuentran ella vuelve a ser más fría y callada, pero James ya ha decidido que la ama y tal, tal.'+
 		' Veinte minutos de peli y ya se han casado. Veinticinco y ya tienen un bebé. En fin, que te empiezas a preguntar cuál es el argumento. Porque, la cosa es esta, el guión ya te ha dado a entender que Lena ha mentido sobre su pasado pero James lo descubre bastante pronto y… ¿Su pasado no es nada misterioso?  ¿Literalmente es de Texas y ya? ¿Y le pregunta a James si todavía la quiere después de enterarse de que es de pueblo? '+
