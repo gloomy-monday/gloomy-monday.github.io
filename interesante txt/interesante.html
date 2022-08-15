@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+<head>
+	<title>Interesante txt</title>
+	<link rel="icon" type="image/x-icon" href="icon.png">
+	
+	<link rel="stylesheet" href="interesante.css">
+	<script src="webList.js"></script>
+</head>
+
+
+<body>
+
+	<header>
+		<h1>Webs Interesantes</h1>
+		<nav>
+			<button onclick="showAll()">Todos</button>
+			<button onclick="show('miscel')">Miscelánea</button>
+			<button onclick="show('html')">HTML</button>
+			<button onclick="show('css')">CSS</button>
+			<button onclick="show('javascript')">JavaScript</button>
+			<button onclick="show('apisdb')">APIs & DBs</button>
+		</nav>
+	</header>
+
+	<main id="main">
+		<div class="wrapper">
+		<h2>Miscelánea</h2>
+		<ol id="miscelanea"></ol>
+		</div>
+
+		<div class="wrapper">
+		<h2>HTML</h2>
+		<ol id="html"></ol>
+		</div>
+
+		<div class="wrapper">
+		<h2>CSS</h2>
+		<ol id="css"></ol>
+		</div>
+
+		<div class="wrapper">
+		<h2>JavaScript</h2>
+		<ol id="javascript"></ol>
+		</div>
+
+		<div class="wrapper">
+		<h2>APIs & DBs</h2>
+		<ol id="apisdb"></ol>
+		</div>
+	</main>
+
+<script>
+'use strict';
+
+
+const firstchild = document.getElementById("main").children.item(0);
+
+function orderByName(category,target) {
+	let catKeys = Object.keys(category).sort();
+	for (let i = 0, max = catKeys.length; i < max; i++) {
+	let webName = catKeys[i];
+  	let webInfo = category[catKeys[i]];
+  	let webUrl = webInfo['url'];
+  	let webDesc = webInfo['desc'];
+  	document.getElementById(target).innerHTML += "<li><a href='" + webUrl + "'>" + webName + "</a><br><span class='indent'>" + webDesc + "</span></li>";
+
+}};
+
+function show(category) {
+	var elements = document.getElementById("main").children;
+	for (let i = 0, max = categories.length; i < max; i++) {
+		elements.item(i).style.display = 'none';
+	};
+	console.log("category index is " + categories.indexOf(category) + " category is " + category);
+	elements.item(categories.indexOf(category)).style.display = 'block';
+
+};
+
+function showAll() {
+	var elements = document.getElementById("main").children;
+	for (let i = 0, max = categories.length; i < max; i++) {
+		elements.item(i).style.display = 'block';
+	};
+
+}
+
+orderByName(miscel,'miscelanea')
+orderByName(html,'html')
+orderByName(css,'css')
+orderByName(javascript,'javascript')
+orderByName(apisdb,'apisdb')
+
+
+</script>
+
+</body>

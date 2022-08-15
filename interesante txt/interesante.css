@@ -1,0 +1,149 @@
+:root {
+	font-family: arial;
+	color: white;
+	margin: 2rem;
+	--purplerain: #a26deb;
+	--prettyinpink: #eb6dde;
+	--kindofblue: #7a6deb;
+	--turquois: #6debca;
+	--fadetogray: #acacac;
+}
+
+a {
+	text-decoration: none;
+	color: rgba(255,255,255,0.8);
+	font-size: 1.3rem;
+	background-color: rgba(0,0,0,0.3);
+}
+
+a:hover {
+	color: white;
+	background-color: rgba(0,0,0,0.6);
+}
+
+ol > li {
+	list-style: none;
+}
+
+nav {
+	margin: 2rem;
+}
+
+nav > button {
+	border-radius: 2rem;
+	font-size: 1.2rem;
+	padding: 0.8rem;
+	border: none;
+	margin: 0.3rem;
+	color: white;
+	opacity: 0.8;
+}
+
+nav > button:hover {
+	opacity: 1;
+}
+
+nav > button:first-child {
+	background-color: black
+}
+
+nav > button:nth-child(2) {
+	background-color: var(--purplerain);
+}
+
+nav > button:nth-child(3) {
+	background-color: var(--prettyinpink);
+}
+
+nav > button:nth-child(4) {
+	background-color: var(--kindofblue);
+}
+
+nav > button:nth-child(5) {
+	background-color: var(--turquois);
+}
+
+nav > button:nth-child(6) {
+	background-color: var(--fadetogray);
+}
+
+h1 {
+	color: white;
+	background-color: black;
+	font-size: 3.2rem;
+	font-variant: small-caps;
+	letter-spacing: 0.7rem;
+	text-align: center;
+	padding: 1rem;
+}
+
+h2 {
+	font-size: 2.8rem;
+	font-variant: small-caps;
+}
+
+body {
+	max-width: 800px;
+	margin: auto;
+	background-color: black;
+	background-image: url('bg.png');
+}
+
+
+main > div {
+	background-color: blue;
+	border-radius: 2rem;
+}
+
+main > div:first-child {
+	background-color: var(--purplerain);
+}
+
+main > div:nth-child(2) {
+	background-color: var(--prettyinpink);
+}
+
+main > div:nth-child(3) {
+	background-color: var(--kindofblue)
+}
+
+main > div:nth-child(4) {
+	background-color: var(--turquois)
+}
+
+main > div:nth-child(5) {
+	background-color: var(--fadetogray)
+}
+
+div.wrapper {
+	display: block;
+	padding: 2rem;
+	padding-top: 1rem;
+	margin-bottom: 1rem;
+	margin: 2rem;
+	width: 45rem;
+	animation: appear 1s;
+	opacity: 90%;
+}
+
+@keyframes appear {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 90%;
+	}
+}
+
+li {
+	padding: 1rem;
+	color: rgba(0,0,0,0.85);
+	font-size: 1.1rem;
+}
+
+span.indent {
+	text-indent: 2rem;
+}
+
+
