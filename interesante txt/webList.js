@@ -7,10 +7,6 @@ const miscel = {
 		'desc' : 'Conversor de imágenes a mil formatos.'
 	},
 
-	'R W&ensp;D E S I G N E R - C U R S O R&ensp;L I B R A R Y' : {
-		'url' : 'http://www.rw-designer.com/cursor-library/set-0',
-		'desc' : 'Cursores bonitos y feos.'
-	},
 
 	'C O D E P E N' : {
 		'url' : 'https://codepen.io/',
@@ -41,12 +37,42 @@ const miscel = {
 		'url' : 'https://www.lindsayhumes.com/custom-blog-design/',
 		'desc' : 'Diseñadora de webs.'
 	},
+
+	'L A W S&ensp;O F&ensp;UX' : {
+		'url' : 'https://www.lindsayhumes.com/custom-blog-design/',
+		'desc' : 'Colección de buenas prácticas de diseño UX.'
+	},
+
+	'U X&ensp;O F&ensp;M Y T H S' : {
+		'url' : 'https://uxmyths.com/',
+		'desc' : 'Web que recopila falsas concepciones acerca de diseño UX.'
+	},
+
+	'T I N Y&ensp;O F&ensp;P N G' : {
+		'url' : 'https://tinypng.com/',
+		'desc' : 'Comprensor de imágenes.'
+	},
+
+	'M O C K U P Z' : {
+		'url' : 'https://tinypng.com/',
+		'desc' : 'Hacer mock-ups 3D facilitos para apps y cosas de móvil.'
+	},
+
+	'L A P A&ensp;N I N J A' : {
+		'url' : 'https://www.lapa.ninja/',
+		'desc' : 'Ejemplos de diseño web.'
+	},
+
+	'T O P&ensp;5&ensp;P R O J E C T S' : {
+		'url' : 'https://twitter.com/DThompsonDev/status/1558572315054596097',
+		'desc' : 'Ideas para proyectos fullstack para aprender.'
+	},
 };
 
 const html = {
 
 	'D A T A T A B L E S' : {
-		'url' : 'https://datatables.net/',
+		'url' : 'https://mockupz.design/',
 		'desc' : 'Tablas chulas HTML.'
 	},
 
@@ -74,6 +100,11 @@ const html = {
 		'url' : 'https://www.sitepoint.com/html5-forms-markup/',
 		'desc' : 'Resumen de los forms en HTML5.'
 	},
+
+	'3 0&ensp;S E C O N D S&ensp;O F&ensp;C O D E' : {
+		'url' : 'https://www.30secondsofcode.org/',
+		'desc' : 'Trocitos cortitos de código explicados.'
+	},
 };
 
 const css = {
@@ -96,6 +127,31 @@ const css = {
 	'C S S&ensp;G R I D&ensp;G E N E R A T O R' : {
 		'url' : 'https://cssgrid-generator.netlify.app/',
 		'desc' : 'Generador de grids.'
+	},
+
+	'R W&ensp;D E S I G N E R - C U R S O R&ensp;L I B R A R Y' : {
+		'url' : 'http://www.rw-designer.com/cursor-library/set-0',
+		'desc' : 'Cursores bonitos y feos.'
+	},
+
+	'M O S T&ensp;P O W E R F U L&ensp;C S S&ensp;O N E - L I N E R S' : {
+		'url' : 'https://twitter.com/denicmarko/status/1559117844205473794',
+		'desc' : 'Truquitos de CSS.'
+	},
+
+	'T A I L W I N D&ensp;C S S' : {
+		'url' : 'https://tailwindcss.com/',
+		'desc' : 'Framework de CSS.'
+	},
+
+	'B O O T S T R A P' : {
+		'url' : 'https://getbootstrap.com/',
+		'desc' : 'Framework de CSS.'
+	},
+
+	'3 0&ensp;S E C O N D S&ensp;O F&ensp;C O D E' : {
+		'url' : 'https://www.30secondsofcode.org/',
+		'desc' : 'Trocitos cortitos de código explicados.'
 	},
 };
 
@@ -126,7 +182,7 @@ const javascript = {
 		'desc' : 'Versión strogly typed de JS.'
 	},
 
-	'T R U T H Y&ensp;&&ensp;F A L S Y  V A L U E S' : {
+	'T R U T H Y&ensp;&&ensp;F A L S Y&ensp;V A L U E S' : {
 		'url' : 'https://www.sitepoint.com/javascript-truthy-falsy/',
 		'desc' : 'Mini guía sobre lo que JS considera true y false.'
 	},
@@ -224,6 +280,36 @@ const javascript = {
 	'3 0&ensp;J A V A S C R I P T&ensp;P R O J E C T S' : {
 		'url' : 'https://github.com/Brymmobaggins/30JavaScriptProjects',
 		'desc' : '30 proyectitos usando JS vanilla.'
+	},
+
+	'J A V A S C R I P T&ensp;Q U E S T I O N S' : {
+		'url' : 'https://github.com/lydiahallie/javascript-questions',
+		'desc' : 'Test sobre JS.'
+	},
+
+	'3 3&ensp;J S&ensp;C O N C E P T S' : {
+		'url' : 'https://github.com/leonardomso/33-js-concepts',
+		'desc' : 'Conceptos clave de JS explicados.'
+	},
+
+	'3 0&ensp;S E C O N D S&ensp;O F&ensp;C O D E' : {
+		'url' : 'https://www.30secondsofcode.org/',
+		'desc' : 'Trocitos cortitos de código explicados.'
+	},
+
+	'E B O O K F O U N D A T I O N<br>F R E E&ensp;P R O G R A M M I N G&ensp;B O O K S' : {
+		'url' : 'https://github.com/EbookFoundation/free-programming-books',
+		'desc' : 'Libros, cheatsheets, cursitos y más.'
+	},
+
+	'J A V A S C R I P T&ensp;30' : {
+		'url' : 'https://javascript30.com/',
+		'desc' : 'Challenge de 30 días de JS vanilla.'
+	},
+
+	'E S 6&ensp;C H E A T S H E E T' : {
+		'url' : 'https://github.com/DrkSephy/es6-cheatsheet',
+		'desc' : 'Truquis y tips de JS ES6'
 	},
 };
 
