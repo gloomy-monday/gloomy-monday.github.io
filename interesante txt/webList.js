@@ -67,6 +67,26 @@ const miscel = {
 		'url' : 'https://twitter.com/DThompsonDev/status/1558572315054596097',
 		'desc' : 'Ideas para proyectos fullstack para aprender.'
 	},
+
+	'F R O N T&ensp;E N D&ensp;I N T E R V I E W&ensp;H A N D B O O K' : {
+		'url' : 'https://www.frontendinterviewhandbook.com/',
+		'desc' : 'Para preparar entrevistas de trabajo de Front End.'
+	},
+
+	'W E B P' : {
+		'url' : 'https://developers.google.com/speed/webp',
+		'desc' : 'Info sobre el formato de imágen webp.'
+	},
+
+	'B R I E F&ensp;U P' : {
+		'url' : 'https://briefup.co/',
+		'desc' : 'Briefs de prueba para hacer proyectos.'
+	},
+
+	'M E S H&ensp;G R A D I E N T' : {
+		'url' : 'https://meshgradient.com/',
+		'desc' : 'Para hacer degradados bonitos.'
+	},
 };
 
 const html = {
@@ -152,6 +172,11 @@ const css = {
 	'3 0&ensp;S E C O N D S&ensp;O F&ensp;C O D E' : {
 		'url' : 'https://www.30secondsofcode.org/',
 		'desc' : 'Trocitos cortitos de código explicados.'
+	},
+
+	'C S S&ensp;T R I C K S' : {
+		'url' : 'https://css-tricks.com/',
+		'desc' : 'Artículos cortitos sobre CSS.'
 	},
 };
 
@@ -310,6 +335,16 @@ const javascript = {
 	'E S 6&ensp;C H E A T S H E E T' : {
 		'url' : 'https://github.com/DrkSephy/es6-cheatsheet',
 		'desc' : 'Truquis y tips de JS ES6'
+	},
+
+	'N A M E&ensp;T H A T&ensp;C O L O R' : {
+		'url' : 'https://chir.ag/projects/name-that-color/#3BCEBC',
+		'desc' : 'Nombrador de colores en JS.'
+	},
+
+	'S Y N T A X&ensp;V A L I D A T O R' : {
+		'url' : 'https://esprima.org/demo/validate.html',
+		'desc' : 'Te dice los errores de sintáxis en el código.'
 	},
 };
 
