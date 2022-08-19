@@ -1,0 +1,103 @@
+:root {
+	font-family: consolas;
+}
+
+body {
+	display: grid;
+	margin: 3rem;
+}
+
+header {
+	margin: 0;
+}
+
+
+nav {
+	margin-left: 1rem;
+	margin-top: 2rem;
+}
+
+#board {
+	display: none;
+}
+
+h1 {
+	font-size: 2.5rem;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+h2 {
+	font-weight: 400;
+}
+
+h3 {
+	font-size: 2rem;
+	color: grey;
+	letter-spacing: 0.5rem;
+	font-style: italic;
+}
+
+p {
+	font-size: 1.5rem;
+}
+
+button {
+	background-color: black;
+	border-radius: 2rem;
+	font-size: 1.2rem;
+	padding: 0.8rem;
+	border: none;
+	margin: 0.3rem;
+	color: white;
+	opacity: 0.6;
+}
+
+
+button.selected {
+	background-color: red;
+}
+
+#board-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 200px);
+	grid-template-rows: repeat(3, 200px);
+}
+
+#board-grid > * {
+	background-color: black;
+	color: white;
+	padding: 0;
+	margin: 0;
+	width: 200px;
+	height: 200px;
+}
+
+div.vibe-buttons {
+	display: grid;
+	grid-template-columns: repeat(auto-fill,7rem);
+	margin-bottom: 1rem;
+}
+
+#submit, #back {
+	background-color: transparent;
+	color: black;
+	border: solid black 2px;
+	opacity: 1;
+}
+
+#submit:hover, #back:hover {
+	background-color: black;
+	color: white;
+	border: solid white 2px;
+}
+
+#message {
+	font-size: 1.2rem;
+	color: darkgrey;
+}
+
+#vibe-text {
+	display: block;
+	font-size: 1.3rem;
+}

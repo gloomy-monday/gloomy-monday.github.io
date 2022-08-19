@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+<head>
+	<title>The Aesthetizer</title>
+	<!--<link rel="icon" type="image/x-icon" href="icon.png">-->
+	<link rel="stylesheet" href="aesthetizer.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script type="text/javascript" src="https://chir.ag/projects/ntc/ntc.js"></script>
+	<script src="vibecollection.js"></script>
+</head>
+
+<body>
+
+<header>
+<h1>the aesthetizer.</h1>
+<h2>an aesthetic generator</h2>
+</header>
+
+
+<nav id="options">
+<form name="myform" action="" method="GET">
+	<p>give me your name</p>
+	<input type="text" name="inputbox" value="">
+</form>
+<p>choose 3 vibes<br><span style="font-size: 1.2rem">(click to select/unselect)</span></p>
+<div class="vibe-buttons">
+<button id="b-wack" onclick="selectVibe('b-wack')">wack</button>
+<button id="b-glamour" onclick="selectVibe('b-glamour')">glamour</button>
+<button id="b-dreamy" onclick="selectVibe('b-dreamy')">dreamy</button>
+<button id="b-tropicana" onclick="selectVibe('b-tropicana')">tropicana</button>
+<button id="b-pastoral" onclick="selectVibe('b-pastoral')">pastoral</button>
+<button id="b-sadcool" onclick="selectVibe('b-sadcool')">sadcool</button>
+</div>
+<p>choose a colour palette</p>
+<div class="vibe-buttons">
+<button id="b-pastel" onclick="selectPalette('b-pastel')">pastel</button>
+<button id="b-vivid" onclick="selectPalette('b-vivid')">vivid</button>
+<button id="b-dark" onclick="selectPalette('b-dark')">dark</button>
+<button id="b-bw" onclick="selectPalette('b-bw')">bw</button>
+</div>
+<button id="submit" onclick="letsGo()">let's ride</button>
+<p id="message"></p>
+</nav>
+
+<main id="board">
+<div id="board-grid">
+	<div id="img1"></div>
+	<div id="img2"></div>
+	<div id="img3"></div>
+	<div id="img4"></div>
+	<div id="img5"></div>
+	<div id="img6"></div>
+	<div id="img7"></div>
+	<div id="img8"></div>
+	<div id="img9"></div>
+</div>
+<h3 id="aestheticname">algocore</h3>
+<p id="vibetext">nothing to see here</p>
+<button id="back" onclick="back()">try again</button>
+</main>
+<script src="aesthetizer.js"></script>
+
+</body>
