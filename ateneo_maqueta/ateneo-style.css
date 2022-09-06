@@ -1,0 +1,353 @@
+/* Variables globales */
+
+:root {
+    --bg: #eee9f0;
+    --accent-bg: #c2b9c7;
+    --h2: #bab3e0;
+    --h3: #343399;
+    --text: #291e26;
+    --text-light: #41353e;
+    --border: #c2b9c7;
+    --accent: #333496;
+    --code: #242261;
+    --preformatted: #ccc;
+    --disabled: #111;
+    --dark: #242261;
+    --sans-font: -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir,
+        "Nimbus Sans L", Roboto, Noto, "Segoe UI", Arial, Helvetica,
+        "Helvetica Neue", sans-serif;
+    --mono-font: Consolas, Menlo, Monaco, "Andale Mono", "Ubuntu Mono",
+        monospace;
+}
+
+/* Clases principales */
+
+html {
+    /* Set the font globally */
+    font-family: var(--sans-font);
+    scroll-behavior: smooth;
+}
+
+body {
+    display: grid;
+    background-image: url("tile.jpg");
+    color: var(--text);
+    font-size: 1.15rem;
+    line-height: 1.5;
+    margin: 0 10%;
+    grid-template-rows: 20em auto;
+    grid-template-columns: 1fr 5fr;
+}
+
+img {
+    margin: 0;
+    max-width: 100%;
+    height: auto;
+}
+
+header {
+    position: relative;
+    color: white;
+    background-color: var(--dark);
+    background-image: linear-gradient(to top, black, transparent),
+        url("proximos-header.jpg");
+    background-size: cover;
+    width: 100%;
+    grid-column: 1 / 3;
+}
+
+header a {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+header h2 {
+    position: absolute;
+    bottom: 1rem;
+    left: 2rem;
+}
+
+nav {
+    padding-left: 2rem;
+    background-color: var(--bg);
+}
+
+nav ul {
+    background-color: var(--dark);
+    text-align: center;
+    font-size: 1rem;
+    line-height: 2;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.nav-container {
+    background-color: var(--dark);    
+}
+
+nav svg {
+    width: 100%;
+    height: auto;    
+}
+
+.hole {
+    fill: var(--bg);
+}
+
+.ribbon {
+    fill: var(--dark);
+}
+
+nav label,
+#hamburger {
+    display: none;
+}
+
+nav li a:hover {
+    background-color: var(--accent);
+    color: var(--bg);
+    border: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+nav li{
+    margin-top: 1rem;
+    line-height: 1.5rem;
+}
+
+nav a {
+    border: 0;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav a,
+nav a:visited {
+    display: inline-block;
+    padding: 0;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: var(--accent);
+}
+
+main{
+    background-color: var(--bg);
+}
+
+main > *{
+    margin: 4rem;
+    margin-top: 2rem;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+    color: var(--accent);
+}
+
+hr{
+    color: var(--h3);
+    border: 2px solid var(--h3);
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    color: var(--h2);
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.5);
+    font-size: 2.6rem;
+    margin-top: 3rem;
+}
+
+h3 {
+    color: var(--h3);
+    font-size: 2rem;
+    margin-top: 3rem;
+}
+
+h4 {
+    font-size: 1.44rem;
+}
+
+h5 {
+    font-size: 1.15rem;
+}
+
+h6 {
+    font-size: 0.96rem;
+}
+
+h1,
+h2,
+h3 {
+    line-height: 1.1;
+}
+
+.conoce > p{
+    text-align: justify;
+}
+
+
+/* Resto de clases & ids*/
+
+.articles {
+    grid-column: 2;
+}
+
+.event, .conoce {
+    padding: 2rem;
+}
+
+.event-desc {
+    margin: 0;
+}
+
+.junta-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    background-color: var(--h2);
+}
+
+.junta-grid >*{
+    padding: 2rem;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.junta-grid > .cell{
+    display: grid;
+    grid-template-rows: 1fr min-content;
+    grid-template-columns: auto;
+    margin: auto;
+}
+
+
+@media only screen and (min-width: 900px) {
+    .info {
+        display: grid;
+        grid-auto-flow: dense;
+        grid-gap: 2em;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .event-img {
+        grid-column: 2;
+    }
+
+    .event-desc {
+        margin: 0;
+        grid-column: 1;
+        text-align: justify;
+    }
+
+    .event:nth-child(2n) .event-img {
+        grid-column: 1;
+    }
+
+    .event:nth-child(2n) .event-desc {
+        grid-column: 2;
+    }
+}
+
+/* Versión móvil */
+
+@media screen and (max-width: 750px) {
+    body {
+        margin: 0;
+        grid-template-columns: 1fr;
+    }
+
+    nav {
+        grid-column: 1;
+        margin: 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding: 0;
+        z-index: 100;
+    }
+
+    nav a {
+        border: none;
+        padding: 0;
+        color: var(--accent);
+        line-height: 1;
+        margin: 0;
+        font-size: 2em;
+        border-radius: 0;
+    }
+
+    .nav-container {
+        position: fixed;
+        padding-top: 7em;
+        display: none;
+        box-sizing: border-box;
+        height: 100%;
+        border-top: 1px solid #333;
+        background-color: var(--dark);
+    }
+
+    nav svg {
+        display: none;
+    }
+
+    nav label {
+        border-bottom-right-radius: 0.5em;
+        background-color: var(--code);
+        position: fixed;
+        z-index: 100;
+        user-select: none;
+        color: white;
+        display: block;
+        font-style: normal;
+        font-size: 2em;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 2em;
+        width: 2em;
+        height: 2em;
+    }
+
+    @keyframes nav-widen {
+        from {
+            width: 0;
+        }
+        to {
+            width: 75vw;
+        }
+    }
+
+    nav input:checked ~ .nav-container {
+        display: block;
+        width: 75vw;
+        animation-name: nav-widen;
+        animation-duration: 0.25s;
+        animation-timing-function: ease;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 2.1rem;
+    }
+
+    h3 {
+        font-size: 1.75rem;
+    }
+
+    h4 {
+        font-size: 1.25rem;
+    }
+}
