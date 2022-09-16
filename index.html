@@ -11,87 +11,93 @@
 
 <body>
 
-<div class="wrapper">
 <header>
-	<h1><span class="flowers">✲´。.❁¨✲。❁。。</span>Cosorium<span class="flowers"> ✲´。.❁¨✲。❁。</span></h1>
-	<p>Proyectos web varios</p>
-	<hr>
+	<br>
+	<h1><span class="decor" style="font-size: 1.3rem">✲´。.❁¨✲。❁。。</span>Cosorium<span class="decor" style="font-size: 1.3rem">✲´。.❁¨✲。❁。。</span></h1>
+		<h3>Proyectos web varios</h3>
 </header>
 
-<main>
-
-	<div>
-		<div><a href="/avalon/avalon-diorama.html"><img src="avalon-screen.JPG"></a></div>
-		<div class="info">
-		<h2><a href="/avalon/avalon-diorama.html">Avalon Diorama</a></h2>
-		<p>Las letras del álbum 'Avalon' de Roxy Music en formato diorama.</p></div>
-	</div>
-
-	<div>
-	<div><a href="/wrong way up/wrong way up.html"><img src="wwu-screen.JPG"></a></div>
-	<div class="info">
-	<h2><a href="/wrong way up/wrong way up.html">Wrong Way Up</a></h2>
-	<p>Las letras del álbum 'Wrong Way Up' de John Cale y Brian Eno emulando la portada.</p>
-	</div>
-	</div>
-
-	<div>
-	<div><a href="/100 poems & paintings/index.html"><img src="100poems-screen.JPG"></a></div>
-	<div class="info">
-	<h2><a href="/100 poems & paintings/index.html">100 Poems & Paintings</a></h2>
-	<p>Colección de poemas acompañados de cuadros.</p>
-	</div>
-	</div>
-
-	<div>
-	<div><a href="/caballeros ilustres/caballeros-ilustres.html"><img src="caballeros-screen.JPG"></a></div>
-	<div class="info">
-	<h2><a href="/caballeros ilustres/caballeros-ilustres.html">Caballeros ilustres</a></h2>
-	<p>Generador de lápidas de caballeros artúricos.</p>
-	</div>
-	</div>
-
-	<div>
-	<div><a href="/a window/a_window.html"><img src="window-screen.JPG"></a></div>
-	<div class="info">
-	<h2><a href="/a window/a_window.html">A Window</a></h2>
-	<p>Muestra un paisaje según la hora y el clima en Madrid.</p>
-	</div>
-	</div>
-
-	<div>
-	<div><a href="/spaderpedia/spaderpedia.html"><img src="spaderpedia-screen.JPG"></a></div>
-	<div class="info">
-	<h2><a href="/spaderpedia/spaderpedia.html">La Spaderpedia</a></h2>
-	<p>Reseñas de películas de James Spader.</p>
-	</div>
-	</div>
-
-	<div>
-	<div><a href="/interesante txt/interesante.html"><img src="interesante-screen.JPG"></a></div>
-	<div class="info">
-	<h2><a href="/interesante txt/interesante.html">Webs Interesantes</a></h2>
-	<p>Repositorio de sitios interesantes para desarrollo web.</p>
-	</div>
-	</div>
-
-	<div>
-	<div><a href="/aesthetizer/aesthetizer.html"><img src="aesthetizer-screen.JPG"></a></div>
-	<div class="info">
-	<h2><a href="/aesthetizer/aesthetizer.html">The Aesthetizer</a></h2>
-	<p>Generador de aesthetic boards.</p>
-	</div>
-	</div>
-
-	<div>
-	<div><a href="/ateneo_maqueta/index.html"><img src="ateneo-screen.JPG"></a></div>
-	<div class="info">
-	<h2><a href="/ateneo_maqueta/index.html">Maqueta Ateneo</a></h2>
-	<p>Muestra de la web del Ateneo de Torrelodones (en proceso).</p>
-	</div>
-	</div>
-
+<main id="main">
 </main>
-</div>
+
+<div class="flowers-top"></div>
+<div class="flowers-bottom"></div>
+
+<script>
+"use strict";
+
+const webs = {
+
+	"Maqueta Ateneo" : {
+		title : "Maqueta Ateneo",
+		img: "./screens/ateneo-screen.jpg",
+		link: "./ateneo_maqueta/index.html",
+		desc: "Muestra de la web del Ateneo de Torrelodones (en proceso)."},
+
+	Aesthetizer : {
+		title : "The Aesthetizer",
+		img: "./screens/aesthetizer-screen.jpg",
+		link: "./aesthetizer/aesthetizer.html",
+		desc: "Generador de aesthetic boards."},
+
+	"Webs Interesantes" : {
+		title : "Webs Interesantes",
+		img: "./screens/interesante-screen.jpg",
+		link: "./interesante txt/interesante.html",
+		desc: "Repositorio de sitios interesantes para desarrollo web."},
+
+	Spaderpedia : {
+		title : "La Spaderpedia",
+		img: "./screens/spaderpedia-screen.jpg",
+		link: "./spaderpedia/spaderpedia.html",
+		desc: "Reseñas de películas de James Spader."},
+
+	"A Window" : {
+		title : "A Window",
+		img: "./screens/window-screen.jpg",
+		link: "./a window/a_window.html",
+		desc: "Muestra un paisaje según la hora y el clima en Madrid."},
+
+	"Caballeros ilustres" : {
+		title : "100 Poems & Paintings",
+		img: "./screens/caballeros-screen.jpg",
+		link: "./caballeros ilustres/caballeros-ilustres.html",
+		desc: "Generador de lápidas de caballeros artúricos."},
+
+	"100 poems & paintings" : {
+		title : "100 Poems & Paintings",
+		img: "./screens/100poems-screen.jpg",
+		link: "./100 poems & paintings/index.html",
+		desc: "Colección de poemas acompañados de cuadros."},
+
+	"Avalon Diorama" : {
+		title : "Avalon Diorama",
+		img: "./screens/avalon-screen.jpg",
+		link: "https://gloomy-monday.github.io/avalon/avalon-diorama.html",
+		desc: "Las letras del álbum 'Avalon' de Roxy Music en formato diorama."},
+
+	"Wrong Way Up" : {
+		title : "Wrong Way Up",
+		img: "./screens/wwu-screen.jpg",
+		link: "./wrong way up/wrong way up.html",
+		desc: "Las letras del álbum 'Wrong Way Up' de John Cale y Brian Eno emulando la portada."}
+};
+
+function fillUp(){
+const main = document.getElementById("main");
+let keys = [];
+keys = Object.keys(webs);
+for (let i = 0; i < keys.length; i++) {
+	let key = keys[i];
+	let link = webs[key].link;
+	let title = webs[key].title;
+	let img = webs[key].img;
+	let desc = webs[key].desc;
+	main.innerHTML += `<article><a href="${link}"><img src="${img}"></a><h4><a href="${link}">${title}</a></h4><p>${desc}</p></article>`;
+};};
+
+fillUp();
+
+</script>
 
 </body>
