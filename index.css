@@ -68,11 +68,6 @@ main {
 	width: 100%;
 }
 
-article.cell {
-	display: grid;
-	grid-template-rows: 1fr min-content;
-	grid-template-columns: auto;
-}
 
 main > article {
 	margin: 1rem;
@@ -81,11 +76,10 @@ main > article {
 article {
 	display: grid;
 	text-align: center;
-	width: 22rem;
 	background-color: var(--babyblue);
 	border-radius: 0.5rem;
 	border: solid transparent 5px;
-	padding: 1rem;
+	padding: 0.5rem;
 }
 
 article:hover {
