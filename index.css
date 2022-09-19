@@ -37,7 +37,14 @@
 	transform: rotate(180deg);
 }
 
+.decor {
+	font-size: 1.2vw;
+}
 
+html {
+	height: 100%;
+	width: 100%;
+}
 
 body {
 	width: 100vw;
@@ -139,9 +146,18 @@ p {
 }
 
 
-@media (max-width: 784px) {
+@media screen and (max-width: 700px) {
 
-	.decor {
-		display: none;
+.decor {
+	display: none;
 	}
+
+.flowers-top {
+		display: none;
+}
+
+.flowers-bottom {
+	display: none;
+}
+
 }
