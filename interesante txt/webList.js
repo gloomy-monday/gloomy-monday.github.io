@@ -87,6 +87,11 @@ const miscel = {
 		'url' : 'https://meshgradient.com/',
 		'desc' : 'Para hacer degradados bonitos.'
 	},
+
+	'H T M L&ensp;E M A I L' : {
+		'url' : 'https://webdesign.tutsplus.com/articles/build-an-html-email-template-from-scratch--webdesign-12770',
+		'desc' : 'Cómo diseñar emails en html.'
+	}
 };
 
 const html = {
