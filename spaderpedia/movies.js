@@ -47,7 +47,7 @@ const movieInfo = {
 		' el dúo pimpinela. Para rizar el rizo, James es el único que puede verlos, quedando a ojos del resto del mundo como un puto loco.<br><br>Pero Spader no tendrá que enfrentarse sólo a estos espectros, sino a la insistencia de compromiso de su novia y al cambio de rumbo del'+
 		' negocio familiar editorial (ahora quieren publicar libros de gatos y celulitis en vez de “gran literatura”, James Spader monta una escenita y todo).'+
 		'A través de su hora y media de metraje (no sé, me lo acabo de inventar) aprenderemos a apreciar a las personas que tenemos más cerca y a afrontar los cambios y… ¿Qué hace James Spader aquí?<br><br>No es mal actor de comedia (la cara de'+
-		' haba que pone cuando no tiene ni zorra de lo que pasa es para enmarcar) pero esta película es tan empalagosa que parece que hasta a él se le atraganta.'+
+		' haba que pone cuando no tiene ni zorra de lo que pasa es para enmarcar) pero esta película es tan empalagosa que parece que hasta a él se le atraganta. '+
 		'En la escena final, y creo que no spoileo a nadie diciendo cuál es, Spader le pide matrimonio a su novia y suena falso. No sé, no sé.<br><br><span class="conclusion">Conclusión: la'+
 		' verdad es que Michael Caine y Maggie Smith, lo mejor. Por detrás de Spader en pajarita y Spader cagándose en la directiva de la editorial, claro.</span>' 
 	},
@@ -191,6 +191,36 @@ const movieInfo = {
 		' y todo se lía alrededor de eso. Y se lía bien. Tuve varios momentos de decir “ah” y otros de decir “AH”. Todo fluye de forma natural, con buen ritmo y aunque la película a veces no sea tan graciosa como quiere serlo, es lo suficientemente original y entretenida para que no importe demasiado. Está llena de pequeños detallitos con encanto, como que'+
 		' el personaje de James sea súper inteligente pero cuando está a punto de matar a una persona y se le atasca la pistola, le dice “espera un momento” y se cree de verdad que va a esperar. También tiene algunas frases fantásticas como la enunciada por nuestro británico rico hijodeputa cuando le echan en cara que es un tormento de hombre y él habla de sus'+
 		' humildes orígenes: “seré un hijo de puta, pero trabajé muy duro para convertirme en un hijo de puta”. Qué regalo.<br><br><span class="conclusion">Conclusión: en esta película mencionan Mulholland Drive (la calle) así que para mí es canon que sucede a la vez que la peli de Lynch, pero en un plano sensorial más normal. Por cierto, esta fue la primera peli de Charlize Theron.</span>'
+	},
+
+	"Tuff Turf" : {
+		director : "Fritz Kiersch",
+		year : "1985",
+		cast : ["Kim Richards", "Paul Mones", "Robert Downey Jr", "Panchito Gómez" ],
+		poster : "<img style='height:567px;width:390px;margin:5rem;margin-top:7rem;margin-bottom:0' src='tuffturf.jpg'>",
+		screenshot : "url('tuffturf-screen.webp')",
+		review : '<i>Tuff Turf, Turf Tuff, Tu</i>... Esta película violentamente ochentera tenemos de todo (no en balde un usuario de YouTube describió su trama “como de Bollywood”): bailes buenos, bailes malos, consejos de padre, jerseys sobre los hombros, momentos musicales (James Spader canta (?) una balada súper hortera en esta),'+
+		' muchas peleas callejeras, violencia de género y hasta una sección de sigilo a lo <i>Metal Gear Solid</i>. Y, a pesar de todo, esta es otro filme mediocre en la carrera de James.<br><br>Para empezar, las historias sobre instituto no es que me encanten. En este caso, James interpreta a Morgan, '+
+		'un chico de familia bien que es más chulo que un ocho (gafas de sol, chupa de cuero, bicicleta ultraligera y cara de James Spader) que va y se enamora de Frankie, la novia malota del más malote del instituto. En fin, Romeo y Julieta pero con suficiente laca como para reventar la capa de ozono.<br><br>El desconcierto'+
+		' en cuanto al tono de la película quizás sea lo mejor de todo: pasamos de ver a Frankie dando saltos mortales en la disco a que el malo lance con alevosía al padre de la chica contra las cajas de chococrispis del súper. Que esa es otra, el novio celoso de Frankie (el malo) está totalmente desquiciado. Osea, este chaval'+
+		' debería haber ido a la cárcel varias veces. Pero, ¿dónde está la policía? El único que se ve en todo el metraje es del instituto, que le dice Morgan que bicis en el campus no. Pues menos mal, eh.<br><br>En <i>Tuff Turf</i>, por decir alguna cosa más, también sale un imberbe Rober Downey Jr., que también coincide con Spader en otra película'+
+		' (¿siguiente visionado? Quién sabe). Ah, también sale un personaje latino que puntúa todas las frases con “maricón”.<br><br><span class="conclusion">Conclusión: atención al consejo de padre de esta película: “la vida no es un problema que resolver, es un misterio que vivir”. Amén.</span>'
 	}
 
 };
+
+const ranking = {
+
+	1 : "Sex, Lies and Videotape",
+	2 : "Secretary",
+	3 : "Crash",
+	4 : "2 Days in the Valley",
+	5 : "White Palace",
+	6 : "Bad Influence",
+	7 : "Driftwood",
+	8 : "Jack's Back",
+	9 : "Dream Lover",
+	10 : "Tuff Turf",
+	11 : "Curtain Call",
+	12 : "Wolf"
+}
