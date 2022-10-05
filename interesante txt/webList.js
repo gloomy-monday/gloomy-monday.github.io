@@ -75,7 +75,7 @@ const miscel = {
 
 	'W E B P' : {
 		'url' : 'https://developers.google.com/speed/webp',
-		'desc' : 'Info sobre el formato de imágen webp.'
+		'desc' : 'Info sobre el formato de imagen webp.'
 	},
 
 	'B R I E F&ensp;U P' : {
@@ -88,9 +88,10 @@ const miscel = {
 		'desc' : 'Para hacer degradados bonitos.'
 	},
 
-	'H T M L&ensp;E M A I L' : {
-		'url' : 'https://webdesign.tutsplus.com/articles/build-an-html-email-template-from-scratch--webdesign-12770',
-		'desc' : 'Cómo diseñar emails en html.'
+
+	'B A S E&ensp;6 4&ensp;D E C O D E R&ensp;A N D&ensp;D E C O D E R' : {
+		'url' : 'https://www.motobit.com/util/base64-decoder-encoder.asp',
+		'desc' : 'Codificar y descodificar strings e imágenes.'
 	}
 };
 
@@ -130,6 +131,16 @@ const html = {
 		'url' : 'https://www.30secondsofcode.org/',
 		'desc' : 'Trocitos cortitos de código explicados.'
 	},
+
+	'H T M L&ensp;E M A I L' : {
+		'url' : 'https://webdesign.tutsplus.com/articles/build-an-html-email-template-from-scratch--webdesign-12770',
+		'desc' : 'Cómo diseñar emails en html.'
+	},
+
+	'H T M L&ensp;E M A I L&ensp;F O R&ensp;W E B&ensp;D E V E L O P E R S' : {
+		'url' : 'https://www.smashingmagazine.com/2017/01/introduction-building-sending-html-email-for-web-developers/',
+		'desc' : 'Más info y trucos sobre emails en html.'
+	}
 };
 
 const css = {
@@ -419,4 +430,9 @@ const apisdb = {
 		'url' : 'https://www.last.fm/api/intro',
 		'desc' : 'API de Last.fm (hace falta registrarse para utilizarla).'
 	},
+
+	'S Q L&ensp;B A S I C S&ensp;C H E A T&ensp;S H E E T' : {
+		'url' : 'https://learnsql.com/blog/sql-basics-cheat-sheet/sql-basics-cheat-sheet-a4.pdf',
+		'desc' : 'Cheat sheet de los comandos más comunes en SQL.'
+	}
 };
