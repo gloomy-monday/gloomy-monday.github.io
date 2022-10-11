@@ -1,5 +1,5 @@
 :root {
-	font-family: 'Garamond';
+	font-family: 'Garamond', 'Times New Roman', 'Calibri';
 	--springcloud: #dae8de;
 	--palepond: #c5d1c5;
 	--elegantevening: #669999;
@@ -15,7 +15,7 @@ html {
 }
 
 body {
-	background-color: var(--palepond);
+	background-color:var(--palepond);
 	max-width: 80rem;
 	height: 100%;
 	height: 100rem;
@@ -101,7 +101,7 @@ button {
 	border: double var(--darkgold) 0.4rem;
 	border-radius: 2rem;
 	font-size: 1.8rem;
-	font-family: 'Garamond';
+	font-family: 'Garamond', 'Times New Roman', 'Calibri';
 	font-style: italic;
 	font-weight: 600;
 	letter-spacing: 0.2rem;
@@ -131,7 +131,7 @@ button:hover {
 }
 
 h1 {
-	font-family: 'Aguafina Script', cursive;
+	font-family: 'Aguafina Script', cursive,  'Times New Roman', 'Calibri';
 	font-size: 7rem;
 	color: var(--autumngreen);
 	text-shadow: var(--palepond) 0.2rem 0.2rem 0;
@@ -147,7 +147,7 @@ h2 {
 }
 
 h3 {
-	font-family: 'Garamond', cursive;
+	font-family: 'Garamond', cursive,  'Times New Roman', 'Calibri';
 	color: var(--springcloud);
 	text-shadow: var(--autumngreen) 0 0.1rem 0;
 	font-size: 2.5rem;
@@ -158,7 +158,7 @@ h3 {
 }
 
 p {
-	font-family: 'Garamond', cursive;
+	font-family: 'Garamond', cursive,  'Times New Roman', 'Calibri';
 	color: var(--lightgold);
 	text-shadow: var(--autumngreen) 0 0.1rem 0;
 	font-weight: 600;
@@ -262,3 +262,31 @@ color: var(--springcloud);
 
 }
 
+@media only screen and (max-width: 600px) {
+
+html {
+	width: 100%;
+	height: 100%;
+	background-color: var(--palepond);
+	background-image: none;
+}
+
+body {
+	background-color: var(--palepond);
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	border: none;
+	box-shadow: none;
+}
+
+#front-page {
+	width: 90%;
+	display: grid;
+	margin: 2rem;
+	grid-template-columns: 1fr;
+	justify-items: center;
+}
+
+
+}
