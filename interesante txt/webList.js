@@ -92,6 +92,11 @@ const miscel = {
 	'B A S E&ensp;6 4&ensp;D E C O D E R&ensp;A N D&ensp;D E C O D E R' : {
 		'url' : 'https://www.motobit.com/util/base64-decoder-encoder.asp',
 		'desc' : 'Codificar y descodificar strings e imágenes.'
+	},
+
+	'P L A C E H O L D E R' : {
+		'url' : 'https://placeholder.com/',
+		'desc' : 'Cosas para webs en desarrollo.'
 	}
 };
 
@@ -194,6 +199,11 @@ const css = {
 		'url' : 'https://css-tricks.com/',
 		'desc' : 'Artículos cortitos sobre CSS.'
 	},
+
+	'C S S&ensp;T R I C K S<br>A&ensp;G U I D E&ensp;T O&ensp;F L E X B O X' : {
+		'url' : 'https://css-tricks.com/snippets/css/a-guide-to-flexbox/',
+		'desc' : 'Guía sobre las flexboxes en CSS.'
+	}
 };
 
 const javascript = {

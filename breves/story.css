@@ -1,0 +1,41 @@
+:root {
+	padding: 2rem;
+	margin: 5rem;
+	margin-top: 0.2rem;
+	--newautumn: #939e8e;
+	--darkautumngreen: #2f332e;
+	--elegantevening: #669999;
+	--springcloud: #dae8de;
+	font-family: 'Garamond';
+}
+
+::-webkit-scrollbar {
+	width: 0.8rem;
+}
+
+::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+	background: var(--newautumn);
+	border-radius: 2rem;
+}
+
+p {
+	color: var(--darkautumngreen);
+	font-size: 1.5rem;
+	line-height: 3rem;
+	text-align: justify;
+}
+
+h1 {
+	font-size: 4.2rem;
+	font-style: italic;
+	color: var(--elegantevening);
+	text-shadow: var(--springcloud) 0.2rem 0.2rem 0;
+	text-align: left;
+	margin: 6rem;
+	margin-top: 0;
+	margin-left: 0;
+}

@@ -1,0 +1,264 @@
+:root {
+	font-family: 'Garamond';
+	--springcloud: #dae8de;
+	--palepond: #c5d1c5;
+	--elegantevening: #669999;
+	--autumngreen: #61685e;
+	--darkgold: #866538;
+	--lightgold: #f7e4c4;
+}
+
+html {
+	height: 100%;
+	background-color: var(--elegantevening);
+	background-image: url('bgtile.png');
+}
+
+body {
+	background-color: var(--palepond);
+	max-width: 80rem;
+	height: 100%;
+	height: 100rem;
+	margin: 0;
+	margin: auto;
+	border: solid var(--autumngreen) 0.15rem;
+	border-top: none;
+	border-bottom: none;
+	box-shadow: var(--autumngreen) 0 0 0.9rem;
+}
+
+header {
+	width: 100%;
+	margin: 0;
+	display: grid;
+	grid-auto-flow: column;
+	background-color: var(--springcloud);
+	text-align: center;
+}
+
+main {
+	max-height: 80rem;
+	width: 100%;
+}
+
+#front-page {
+	width: 100%;
+	max-height: 100rem;
+	display: grid;
+	margin: 2rem;
+	grid-template-columns: repeat(auto-fill,25rem);
+}
+
+article {
+	display: grid;
+	width: 16rem;
+	height: 20rem;
+	background-color: var(--springcloud);
+	border-radius: 2rem;
+	padding: 2rem;
+	margin: 2rem;
+	text-align: center;
+	border: double var(--elegantevening) 0.45rem;
+}
+
+article > blockquote {
+	display: none;
+	width: 0;
+	height: 0;
+}
+
+article:hover {
+	background-color: var(--elegantevening);
+	border: double var(--springcloud) 0.45rem;
+}
+
+article:hover > h3 {
+	display: none;
+	color: var(--springcloud);
+	text-shadow: var(--autumngreen) 0 0.1rem 0;
+	font-size: 4rem;
+}
+
+article:hover > blockquote {
+	color: var(--springcloud);
+	display: block;
+	width: 12rem;
+	height: 18rem;
+	margin: auto;
+}
+
+iframe {
+	width: 98%;
+	height: 70rem;
+	border: none;
+	margin: 1rem;
+}
+
+button {
+	width: 8.5rem;
+	height: 4rem;
+	background-color: transparent;
+	border: double var(--darkgold) 0.4rem;
+	border-radius: 2rem;
+	font-size: 1.8rem;
+	font-family: 'Garamond';
+	font-style: italic;
+	font-weight: 600;
+	letter-spacing: 0.2rem;
+	color: var(--darkgold);
+	margin: 2rem;
+	margin-right: 3rem;
+	opacity: 0.6;
+}
+
+button:hover {
+	opacity: 1;
+}
+
+
+.accent {
+	min-width: 5rem;
+	height: 100%;
+	background-image: url('accent.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.divider {
+	width: 100%;
+	margin: 0;
+	transform: rotate(180deg);
+}
+
+h1 {
+	font-family: 'Aguafina Script', cursive;
+	font-size: 7rem;
+	color: var(--autumngreen);
+	text-shadow: var(--palepond) 0.2rem 0.2rem 0;
+	margin: 0;
+	margin-top: 2rem;
+}
+
+h2 {
+	font-style: italic;
+	font-size: 1.8rem;
+	color: var(--autumngreen);
+	opacity: 0.8;
+}
+
+h3 {
+	font-family: 'Garamond', cursive;
+	color: var(--springcloud);
+	text-shadow: var(--autumngreen) 0 0.1rem 0;
+	font-size: 2.5rem;
+	font-weight: 600;
+	line-height: 3.5rem;
+	margin-bottom: 0;
+	margin: auto;
+}
+
+p {
+	font-family: 'Garamond', cursive;
+	color: var(--lightgold);
+	text-shadow: var(--autumngreen) 0 0.1rem 0;
+	font-weight: 600;
+}
+
+#storytime {
+	display: grid;
+	justify-items: end;
+}
+
+blockquote {
+	color: var(--autumngreen);
+	font-style: italic;
+	font-size: 1.6rem;
+	font-weight: 500;
+	line-height: 2.3rem;
+}
+
+.disabled {
+	display: none !important;
+}
+
+.darkgold {
+	color:var(--darkgold);
+	font-size:2.5rem;
+	text-shadow: var(--springcloud) 0 0.1rem 0;
+}
+
+.lightgold {
+	color:var(--lightgold);
+	font-size:2.5rem;
+}
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+  background-color: transparent;
+  width: 20rem;
+  height: 24rem;
+  margin: 1.5rem;
+  perspective: 160rem; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  	border-radius: 2rem;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+	display: grid;
+	grid-template-rows: 6fr 2fr;
+  	background-color: var(--elegantevening);
+  	background-image: url('cardtile.png');
+	text-align: center;
+	border: double var(--springcloud) 0.45rem;
+}
+
+.flip-card-front > h3 {
+	margin: 22%;
+	font-size:  2.6rem;
+}
+
+.flip-card-front > p {
+	margin: auto;
+	margin-bottom: 2.5rem;
+	font-size:  1.4rem;
+}
+
+/* Style the back side */
+.flip-card-back {
+color: var(--springcloud);
+  transform: rotateY(180deg);
+  background-color: var(--springcloud);
+	border: double var(--elegantevening) 0.45rem;
+}
+
+.flip-card-back > blockquote {
+	width: 14rem;
+	height: 20rem;
+	margin: 15%;
+
+}
+
