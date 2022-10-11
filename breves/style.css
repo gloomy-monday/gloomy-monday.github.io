@@ -283,7 +283,7 @@ body {
 #front-page {
 	width: 90%;
 	display: grid;
-	margin: 2rem;
+	margin: 0;
 	grid-template-columns: 1fr;
 	justify-items: center;
 }
@@ -294,6 +294,8 @@ blockquote {
 	font-size: 1.1rem;
 	font-weight: 500;
 	line-height: 2rem;
+	margin: 1rem;
+	border: solid red 1px;
 }
 
 .flip-card {
@@ -302,6 +304,14 @@ blockquote {
   height: 21rem;
   margin: 1.5rem;
   perspective: 160rem; /* Remove this if you don't want the 3D effect */
+}
+
+.flip-card-back > blockquote {
+	width: 12rem;
+	height: 16rem;
+	margin: 15%;
+	text-overflow: ellipsis;
+
 }
 
 
