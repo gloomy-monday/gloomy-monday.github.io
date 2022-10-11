@@ -288,5 +288,21 @@ body {
 	justify-items: center;
 }
 
+blockquote {
+	color: var(--autumngreen);
+	font-style: italic;
+	font-size: 1.1rem;
+	font-weight: 500;
+	line-height: 2rem;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 16rem;
+  height: 21rem;
+  margin: 1.5rem;
+  perspective: 160rem; /* Remove this if you don't want the 3D effect */
+}
+
 
 }
