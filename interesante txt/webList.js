@@ -97,6 +97,23 @@ const miscel = {
 	'P L A C E H O L D E R' : {
 		'url' : 'https://placeholder.com/',
 		'desc' : 'Cosas para webs en desarrollo.'
+	},
+
+	'U I&ensp;B A L L' : {
+		'url' : 'https://uiball.com/loaders/',
+		'desc' : 'Spinners y loaders para HTML/CSS y React.'
+	},
+
+
+	'W E B&ensp;D E V&ensp;P A T T E R N S' : {
+		'url' : 'https://web.dev/patterns/',
+		'desc' : 'Ejemplos en HTML/CSS/JS de cosas que se utilizan habitualmente en web.'
+	},
+
+
+	'B E S T&ensp;P R A C T I C E S&ensp;F O R&ensp;F O N T S' : {
+		'url' : 'https://web.dev/font-best-practices/',
+		'desc' : 'Cómo optimizar el uso de fuentes en web.'
 	}
 };
 
@@ -145,6 +162,12 @@ const html = {
 	'H T M L&ensp;E M A I L&ensp;F O R&ensp;W E B&ensp;D E V E L O P E R S' : {
 		'url' : 'https://www.smashingmagazine.com/2017/01/introduction-building-sending-html-email-for-web-developers/',
 		'desc' : 'Más info y trucos sobre emails en html.'
+	},
+
+
+	'7&ensp;H T M L&ensp;T I P S' : {
+		'url' : 'https://twitter.com/Prathkum/status/1575915119170797571',
+		'desc' : 'Trucos como spellcheck, download, poster, translate, etc.'
 	}
 };
 
@@ -203,6 +226,21 @@ const css = {
 	'C S S&ensp;T R I C K S<br>A&ensp;G U I D E&ensp;T O&ensp;F L E X B O X' : {
 		'url' : 'https://css-tricks.com/snippets/css/a-guide-to-flexbox/',
 		'desc' : 'Guía sobre las flexboxes en CSS.'
+	},
+
+	'G L A S S M O R P H I S M' : {
+		'url' : 'https://css.glass/',
+		'desc' : 'Generador de efecto cristal en CSS.'
+	},
+
+	'P A T T E R N . C S S' : {
+		'url' : 'https://bansal.io/pattern-css#introduction',
+		'desc' : 'Fondos y elementos en CSS.'
+	},
+
+	'F A N C Y&ensp;I M A G E&ensp;D E C O R A T I O N&ensp;O N&ensp;H O V E R' : {
+		'url' : 'https://codepen.io/t_afif/full/QWrmBqJ',
+		'desc' : 'Marquito con animación chula.'
 	}
 };
 
@@ -371,6 +409,11 @@ const javascript = {
 	'S Y N T A X&ensp;V A L I D A T O R' : {
 		'url' : 'https://esprima.org/demo/validate.html',
 		'desc' : 'Te dice los errores de sintáxis en el código.'
+	},
+
+	'A D V E N T&ensp;O F&ensp;C O D E' : {
+		'url' : 'https://adventofcode.com/',
+		'desc' : 'Calendario de adviento con problemitas de programación.'
 	},
 };
 
