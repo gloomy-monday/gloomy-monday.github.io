@@ -7,7 +7,7 @@ let currentProject = [];
 let currentSrcs = [];
 
 
-
+function addProyectListeners() {
 //Abrir proyecto
 for (let i = 0; i < wrappers.length; i++) {
 	let wrapper = wrappers[i];
@@ -67,8 +67,38 @@ document.getElementById("nextB").addEventListener('click', () => {
 	if (currentIndex != (currentSrcs.length - 1)) {
 		document.getElementById("viewer-image").src = currentSrcs[currentIndex + 1]
 	}
-})
+})}
 
+//Montador de proyectos y paginación
+
+function projectBuilder(page) {
+let allKeys = Object.keys(response);
+let pagesNumber = Math.ceil(allKeys.length / 4);
+let keys = allKeys.splice(4 * (page - 1), 4);
+console.log(keys);
+console.log(`number of pages ${pagesNumber}`);
+for (let i = 0; i < 4; i++) {
+	let name = response[keys[i]].projectName;
+	let desc = response[keys[i]].projectDesc;
+	let srcs = response[keys[i]].imgSrcs;
+	document.getElementsByTagName("main")[0].innerHTML += `<div class="project-wrapper">
+            <div class="project-img">
+            </div>
+            <h2>${name}</h2>
+            <div class="open-options">
+                <p>${desc}</p>
+                <button class="closeB">x</button>
+            </div>
+        </div>`;
+        if(srcs.length === 1) {
+        	document.getElementsByClassName("project-img")[i].innerHTML += `<img style="width:40rem;max-width:none" src="${srcs[0]}">`
+        } else {
+        for (let h = 0; h < srcs.length; ++h) {
+   		document.getElementsByClassName("project-img")[i].innerHTML += `<img src="${srcs[h]}">`;
+   	}}
+} addProyectListeners()}
+
+projectBuilder(1);
 
 //Year (Footer)
 
