@@ -5,6 +5,7 @@ let closeBs = document.getElementsByClassName("closeB");
 let projectImgsArray = document.getElementsByClassName("project-img");
 let currentProject = [];
 let currentSrcs = [];
+let pagesNumber = "";
 
 
 function addProyectListeners() {
@@ -73,15 +74,13 @@ document.getElementById("nextB").addEventListener('click', () => {
 
 function projectBuilder(page) {
 let allKeys = Object.keys(response);
-let pagesNumber = Math.ceil(allKeys.length / 4);
+pagesNumber = Math.ceil(allKeys.length / 4);
 let keys = allKeys.splice(4 * (page - 1), 4);
-console.log(keys);
-console.log(`number of pages ${pagesNumber}`);
-for (let i = 0; i < 4; i++) {
+for (let i = 0; i < keys.length; i++) {
 	let name = response[keys[i]].projectName;
 	let desc = response[keys[i]].projectDesc;
 	let srcs = response[keys[i]].imgSrcs;
-	document.getElementsByTagName("main")[0].innerHTML += `<div class="project-wrapper">
+	document.getElementsByTagName("section")[0].innerHTML += `<div class="project-wrapper">
             <div class="project-img">
             </div>
             <h2>${name}</h2>
@@ -91,14 +90,36 @@ for (let i = 0; i < 4; i++) {
             </div>
         </div>`;
         if(srcs.length === 1) {
-        	document.getElementsByClassName("project-img")[i].innerHTML += `<img style="width:40rem;max-width:none" src="${srcs[0]}">`
+        	document.getElementsByClassName("project-img")[i].innerHTML += `<img class="only-one" src="${srcs[0]}">`
         } else {
         for (let h = 0; h < srcs.length; ++h) {
    		document.getElementsByClassName("project-img")[i].innerHTML += `<img src="${srcs[h]}">`;
    	}}
-} addProyectListeners()}
+} addProyectListeners();}
+
+function paginator() {
+	for (let i = 1; i <= pagesNumber; i++) {
+		document.getElementById("pagination").innerHTML += `<button>${i}</button>`
+	}
+	document.getElementById("pagination").children[0].classList.add("active");
+	let pagesButtons = document.getElementById("pagination").children;
+	for (let i = 0; i < pagesButtons.length; i++) {
+		pagesButtons[i].addEventListener('click', () => {
+			let numberClicked = event.target.innerHTML;
+			document.getElementsByTagName("section")[0].innerHTML = "";
+			projectBuilder(numberClicked);
+			for (let i = 0; i < pagesButtons.length; i++) {
+				if (pagesButtons[i].classList.contains("active")) {
+					pagesButtons[i].classList.remove("active");
+				}
+			}
+			pagesButtons[numberClicked - 1].classList.add("active");
+		})
+	}
+}
 
 projectBuilder(1);
+paginator();
 
 //Year (Footer)
 

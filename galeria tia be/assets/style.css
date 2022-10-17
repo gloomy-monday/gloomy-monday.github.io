@@ -184,9 +184,9 @@ button:hover {
     margin-top: 1rem;
     padding: 1rem;
     grid-template-rows: auto;
-    grid-template-columns: repeat(auto-fit, minmax(1px,40rem));
+    grid-template-columns: repeat(auto-fit, minmax(1px,12rem));
     justify-items: stretch;
-    justify-content: center;
+    justify-content: start;
 }
 
 .open-wrapper > .project-img > img:last-child {
@@ -245,6 +245,42 @@ button:hover {
     margin-bottom: 0;
 }
 
+#pagination {
+    display: inline-block;
+    margin: auto;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#pagination > button {
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.1rem;
+    color: var(--darkpink);
+    background-color: transparent;
+    float: left;
+    padding: 0.2rem 0.4rem;
+    text-decoration: none;
+    opacity: 0.6;
+    margin: 0.2rem;
+}
+
+#pagination > button.active {
+    background-color: var(--darkpink);
+    color: aliceblue;
+    opacity: 1;
+}
+
+#pagination > button:hover {
+    color: aliceblue;
+    background-color: var(--someflower);
+}
+
+#pagination > button.active:hover {
+    color: aliceblue;
+    background-color: var(--darkpink);
+}
+
 .closeB {
     width: 2rem;
     height: 2rem;
@@ -281,7 +317,12 @@ button:hover {
 }
 
 .only-one {
+    width:40rem !important;
+    max-width:none !important;
+}
 
+.open-wrapper > .project-img > .only-one {
+    width: 8rem !important;
 }
 
 @keyframes appear {
@@ -395,5 +436,17 @@ header {
     border-bottom: solid var(--darkpink) 0.15rem;
 }
 
+#pagination > button {
+    width: 5rem;
+    height: 5rem;
+    font-size: 2rem;
+    color: var(--darkpink);
+    background-color: transparent;
+    float: left;
+    padding: 0.2rem 0.4rem;
+    text-decoration: none;
+    opacity: 0.6;
+    margin: 0.2rem;
+}
 
 }
