@@ -114,6 +114,16 @@ const miscel = {
 	'B E S T&ensp;P R A C T I C E S&ensp;F O R&ensp;F O N T S' : {
 		'url' : 'https://web.dev/font-best-practices/',
 		'desc' : 'Cómo optimizar el uso de fuentes en web.'
+	},
+
+	'C O M P O N E N T&ensp;G A L L E R Y' : {
+		'url' : 'https://component.gallery/',
+		'desc' : 'Ejemplos de distintos componentes web: qué son, cómo se hacen, etc.'
+	},
+
+	'S T A C K&ensp;O V E R F L O W&ensp;S U R V E Y&ensp;2019' : {
+		'url' : 'https://insights.stackoverflow.com/survey/2019#technology',
+		'desc' : 'Resultados de la encuesta de 2019 de Stack Overflow.'
 	}
 };
 
@@ -415,6 +425,21 @@ const javascript = {
 		'url' : 'https://adventofcode.com/',
 		'desc' : 'Calendario de adviento con problemitas de programación.'
 	},
+
+	'G E N T L E&ensp;E X P L A N A T I O N&ensp;O F&ensp;" T H I S "' : {
+		'url' : 'https://dmitripavlutin.com/gentle-explanation-of-this-in-javascript/',
+		'desc' : 'Explicación de cómo funciona "this" en JavaScript.'
+	},
+
+	'A M A Z I N G&ensp;R E A C T&ensp;P R O J E C T S' : {
+		'url' : 'https://github.com/jiwonbest/amazing-react-projects',
+		'desc' : 'Repositorio de GitHub con proyectos de React open source.'
+	},
+
+	'E X P R E S S&ensp;M I D D L E W A R E' : {
+		'url' : 'https://expressjs.com/en/resources/middleware.html',
+		'desc' : 'Documentación sobre middleware de Express.js.'
+	}
 };
 
 const apisdb = {
@@ -487,5 +512,20 @@ const apisdb = {
 	'S Q L&ensp;B A S I C S&ensp;C H E A T&ensp;S H E E T' : {
 		'url' : 'https://learnsql.com/blog/sql-basics-cheat-sheet/sql-basics-cheat-sheet-a4.pdf',
 		'desc' : 'Cheat sheet de los comandos más comunes en SQL.'
+	},
+
+	'S I G H T E N G I N E' : {
+		'url' : 'https://sightengine.com/',
+		'desc' : 'API para analizar vídeos e imágenes: colores dominantes, moderación de contenido, etc. (De pago con versión gratuita limitada).'
+	},
+
+	'S P O T I F Y&ensp;F O R&ensp;D E V E L O P E R S' : {
+		'url' : 'https://developer.spotify.com/',
+		'desc' : 'Sitio de Spotify con información sobre su API, documentación, showcase, etc.'
+	},
+
+	'M U S I X M A T C H&ensp;D E V E L O P E R' : {
+		'url' : 'https://developer.musixmatch.com/',
+		'desc' : 'Sitio de MusixMatch (proveedor de letras de canciones) con documentación e info sobre su API.'
 	}
 };
