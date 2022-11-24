@@ -124,6 +124,11 @@ const miscel = {
 	'S T A C K&ensp;O V E R F L O W&ensp;S U R V E Y&ensp;2019' : {
 		'url' : 'https://insights.stackoverflow.com/survey/2019#technology',
 		'desc' : 'Resultados de la encuesta de 2019 de Stack Overflow.'
+	},
+
+	'D I G I T A L&ensp;O C E A N : T U T O R I A L S' : {
+		'url' : 'https://www.digitalocean.com/community/tutorials',
+		'desc' : 'Tutoriales varios.'
 	}
 };
 
@@ -439,6 +444,46 @@ const javascript = {
 	'E X P R E S S&ensp;M I D D L E W A R E' : {
 		'url' : 'https://expressjs.com/en/resources/middleware.html',
 		'desc' : 'Documentación sobre middleware de Express.js.'
+	},
+
+	'F O R M&ensp;V A L I D A T I O N :&ensp;W/&ensp;R E G E X': {
+		'url' : 'https://html.form.guide/snippets/javascript-form-validation-using-regular-expression/',
+		'desc' : 'Cómo usar regex con JavaScript para validar formularios HTML.'
+	},
+
+	'C R E A T E&ensp;R E A C T&ensp;A P P': {
+		'url' : 'https://create-react-app.dev/',
+		'desc' : 'Documentación de este paquete de npm para crear apps de React con un sólo comando.'
+	},
+
+	'R E A C T' : {
+		'url' : 'https://reactjs.org/',
+		'desc' : 'Página oficial de la librería React.'
+	},
+
+	'D E P E N D E N C I E S&ensp;A R R A Y&ensp;I N&ensp;R E A C T . U S E E F F E C T ( )' : {
+		'url' : 'https://blog.bitsrc.io/understanding-dependencies-in-useeffect-7afd4df37c96',
+		'desc' : 'Cómo funciona el segundo argumento de useEffect() en React, el array de dependencias.'
+	},
+
+	'S T A C K&ensp;O V E R F L O W : R E M O V I N G&ensp;C O M P O N E N T S&ensp;I N&ensp;R E A C T ?' : {
+		'url' : 'https://stackoverflow.com/questions/27227792/react-js-removing-a-component',
+		'desc' : 'Cómo manejar componentes en React.'
+	},
+
+	'H O W&ensp;T O&ensp;S H O W&ensp;A N D&ensp;H I D E&ensp;R E A C T&ensp;C O M P O N E N T S' : {
+		'url' : 'https://www.pluralsight.com/guides/how-to-show-and-hide-reactjs-components',
+		'desc' : 'Cómo mostrar/esconder componentes en React.'
+	},
+
+	'H O W&ensp;T O&ensp;P A S S&ensp;P R O P S&ensp;F R O M&ensp;C H I L D&ensp;T O&ensp;P A R E N T&ensp;I N&ensp;R E A C T' : {
+		'url' : 'https://javascript.plainenglish.io/how-to-pass-props-from-child-to-parent-component-in-react-d90752ff4d01',
+		'desc' : 'Cómo pasar información de child a parent en React.'
+	},
+
+	'K N O W&ensp;Y O U R&ensp;M U S I C' : {
+		'url' : 'https://github.com/ethanpasta/KnowYourMusic',
+		'desc' : 'Proyecto usando React, Redux, la API de Spotify, etc.'
 	}
 };
 
@@ -527,5 +572,10 @@ const apisdb = {
 	'M U S I X M A T C H&ensp;D E V E L O P E R' : {
 		'url' : 'https://developer.musixmatch.com/',
 		'desc' : 'Sitio de MusixMatch (proveedor de letras de canciones) con documentación e info sobre su API.'
+	},
+
+	'F E T C H I N G&ensp;&&ensp;D I S P L A Y I N G&ensp;D A T A&ensp;I N&ensp;R E A C T' : {
+		'url' : 'https://betterprogramming.pub/fetching-and-displaying-data-in-react-part-1-d40fe279a8be',
+		'desc' : 'Cómo hacer fetch & display en React.'
 	}
 };
