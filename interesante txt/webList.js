@@ -466,17 +466,17 @@ const javascript = {
 		'desc' : 'Cómo funciona el segundo argumento de useEffect() en React, el array de dependencias.'
 	},
 
-	'S T A C K&ensp;O V E R F L O W : R E M O V I N G&ensp;C O M P O N E N T S&ensp;I N&ensp;R E A C T ?' : {
+	'S T A C K&ensp;O V E R F L O W : R E M O V I N G<br>C O M P O N E N T S&ensp;I N&ensp;R E A C T ?' : {
 		'url' : 'https://stackoverflow.com/questions/27227792/react-js-removing-a-component',
 		'desc' : 'Cómo manejar componentes en React.'
 	},
 
-	'H O W&ensp;T O&ensp;S H O W&ensp;A N D&ensp;H I D E&ensp;R E A C T&ensp;C O M P O N E N T S' : {
+	'H O W&ensp;T O&ensp;S H O W&ensp;A N D&ensp;H I D E<br>R E A C T&ensp;C O M P O N E N T S' : {
 		'url' : 'https://www.pluralsight.com/guides/how-to-show-and-hide-reactjs-components',
 		'desc' : 'Cómo mostrar/esconder componentes en React.'
 	},
 
-	'H O W&ensp;T O&ensp;P A S S&ensp;P R O P S&ensp;F R O M&ensp;C H I L D&ensp;T O&ensp;P A R E N T&ensp;I N&ensp;R E A C T' : {
+	'H O W&ensp;T O&ensp;P A S S&ensp;P R O P S&ensp;F R O M<br>C H I L D&ensp;T O&ensp;P A R E N T&ensp;I N&ensp;R E A C T' : {
 		'url' : 'https://javascript.plainenglish.io/how-to-pass-props-from-child-to-parent-component-in-react-d90752ff4d01',
 		'desc' : 'Cómo pasar información de child a parent en React.'
 	},
@@ -484,6 +484,16 @@ const javascript = {
 	'K N O W&ensp;Y O U R&ensp;M U S I C' : {
 		'url' : 'https://github.com/ethanpasta/KnowYourMusic',
 		'desc' : 'Proyecto usando React, Redux, la API de Spotify, etc.'
+	},
+
+	'R E A C T - I C O N S' : {
+		'url' : 'https://react-icons.github.io/react-icons/',
+		'desc' : 'Iconos para proyectos de React.'
+	},
+
+	'A O S' : {
+		'url' : 'https://michalsnik.github.io/aos/',
+		'desc' : 'Animation On Scroll.'
 	}
 };
 
