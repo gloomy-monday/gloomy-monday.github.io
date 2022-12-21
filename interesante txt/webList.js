@@ -1,4 +1,4 @@
-const categories = ["miscel", "html", "css", "javascript", "apisdb"]
+const categories = ["miscel", "html", "css", "javascript", "apisdb", "cms", "studios"]
 
 const miscel = {
 
@@ -7,6 +7,10 @@ const miscel = {
 		'desc' : 'Conversor de imágenes a mil formatos.'
 	},
 
+	'R W&ensp;D E S I G N E R - C U R S O R&ensp;L I B R A R Y' : {
+		'url' : 'http://www.rw-designer.com/cursor-library/set-0',
+		'desc' : 'Cursores bonitos y feos.'
+	},
 
 	'C O D E P E N' : {
 		'url' : 'https://codepen.io/',
@@ -31,111 +35,13 @@ const miscel = {
 	'W E B&ensp;C O N T E N T&ensp;A C C E S S I B I L I T Y&ensp;G U I D E L I N E S' : {
 		'url' : 'https://www.w3.org/TR/WCAG21/',
 		'desc' : 'Guía de recomendaciones de accesibilidad del W3C.'
-	},
-
-	'L I N D S A Y &ensp;H U M E S' : {
-		'url' : 'https://www.lindsayhumes.com/custom-blog-design/',
-		'desc' : 'Diseñadora de webs.'
-	},
-
-	'L A W S&ensp;O F&ensp;UX' : {
-		'url' : 'https://www.lindsayhumes.com/custom-blog-design/',
-		'desc' : 'Colección de buenas prácticas de diseño UX.'
-	},
-
-	'U X&ensp;O F&ensp;M Y T H S' : {
-		'url' : 'https://uxmyths.com/',
-		'desc' : 'Web que recopila falsas concepciones acerca de diseño UX.'
-	},
-
-	'T I N Y&ensp;O F&ensp;P N G' : {
-		'url' : 'https://tinypng.com/',
-		'desc' : 'Comprensor de imágenes.'
-	},
-
-	'M O C K U P Z' : {
-		'url' : 'https://tinypng.com/',
-		'desc' : 'Hacer mock-ups 3D facilitos para apps y cosas de móvil.'
-	},
-
-	'L A P A&ensp;N I N J A' : {
-		'url' : 'https://www.lapa.ninja/',
-		'desc' : 'Ejemplos de diseño web.'
-	},
-
-	'T O P&ensp;5&ensp;P R O J E C T S' : {
-		'url' : 'https://twitter.com/DThompsonDev/status/1558572315054596097',
-		'desc' : 'Ideas para proyectos fullstack para aprender.'
-	},
-
-	'F R O N T&ensp;E N D&ensp;I N T E R V I E W&ensp;H A N D B O O K' : {
-		'url' : 'https://www.frontendinterviewhandbook.com/',
-		'desc' : 'Para preparar entrevistas de trabajo de Front End.'
-	},
-
-	'W E B P' : {
-		'url' : 'https://developers.google.com/speed/webp',
-		'desc' : 'Info sobre el formato de imagen webp.'
-	},
-
-	'B R I E F&ensp;U P' : {
-		'url' : 'https://briefup.co/',
-		'desc' : 'Briefs de prueba para hacer proyectos.'
-	},
-
-	'M E S H&ensp;G R A D I E N T' : {
-		'url' : 'https://meshgradient.com/',
-		'desc' : 'Para hacer degradados bonitos.'
-	},
-
-
-	'B A S E&ensp;6 4&ensp;D E C O D E R&ensp;A N D&ensp;D E C O D E R' : {
-		'url' : 'https://www.motobit.com/util/base64-decoder-encoder.asp',
-		'desc' : 'Codificar y descodificar strings e imágenes.'
-	},
-
-	'P L A C E H O L D E R' : {
-		'url' : 'https://placeholder.com/',
-		'desc' : 'Cosas para webs en desarrollo.'
-	},
-
-	'U I&ensp;B A L L' : {
-		'url' : 'https://uiball.com/loaders/',
-		'desc' : 'Spinners y loaders para HTML/CSS y React.'
-	},
-
-
-	'W E B&ensp;D E V&ensp;P A T T E R N S' : {
-		'url' : 'https://web.dev/patterns/',
-		'desc' : 'Ejemplos en HTML/CSS/JS de cosas que se utilizan habitualmente en web.'
-	},
-
-
-	'B E S T&ensp;P R A C T I C E S&ensp;F O R&ensp;F O N T S' : {
-		'url' : 'https://web.dev/font-best-practices/',
-		'desc' : 'Cómo optimizar el uso de fuentes en web.'
-	},
-
-	'C O M P O N E N T&ensp;G A L L E R Y' : {
-		'url' : 'https://component.gallery/',
-		'desc' : 'Ejemplos de distintos componentes web: qué son, cómo se hacen, etc.'
-	},
-
-	'S T A C K&ensp;O V E R F L O W&ensp;S U R V E Y&ensp;2019' : {
-		'url' : 'https://insights.stackoverflow.com/survey/2019#technology',
-		'desc' : 'Resultados de la encuesta de 2019 de Stack Overflow.'
-	},
-
-	'D I G I T A L&ensp;O C E A N : T U T O R I A L S' : {
-		'url' : 'https://www.digitalocean.com/community/tutorials',
-		'desc' : 'Tutoriales varios.'
 	}
 };
 
 const html = {
 
 	'D A T A T A B L E S' : {
-		'url' : 'https://mockupz.design/',
+		'url' : 'https://datatables.net/',
 		'desc' : 'Tablas chulas HTML.'
 	},
 
@@ -163,27 +69,6 @@ const html = {
 		'url' : 'https://www.sitepoint.com/html5-forms-markup/',
 		'desc' : 'Resumen de los forms en HTML5.'
 	},
-
-	'3 0&ensp;S E C O N D S&ensp;O F&ensp;C O D E' : {
-		'url' : 'https://www.30secondsofcode.org/',
-		'desc' : 'Trocitos cortitos de código explicados.'
-	},
-
-	'H T M L&ensp;E M A I L' : {
-		'url' : 'https://webdesign.tutsplus.com/articles/build-an-html-email-template-from-scratch--webdesign-12770',
-		'desc' : 'Cómo diseñar emails en html.'
-	},
-
-	'H T M L&ensp;E M A I L&ensp;F O R&ensp;W E B&ensp;D E V E L O P E R S' : {
-		'url' : 'https://www.smashingmagazine.com/2017/01/introduction-building-sending-html-email-for-web-developers/',
-		'desc' : 'Más info y trucos sobre emails en html.'
-	},
-
-
-	'7&ensp;H T M L&ensp;T I P S' : {
-		'url' : 'https://twitter.com/Prathkum/status/1575915119170797571',
-		'desc' : 'Trucos como spellcheck, download, poster, translate, etc.'
-	}
 };
 
 const css = {
@@ -207,56 +92,6 @@ const css = {
 		'url' : 'https://cssgrid-generator.netlify.app/',
 		'desc' : 'Generador de grids.'
 	},
-
-	'R W&ensp;D E S I G N E R - C U R S O R&ensp;L I B R A R Y' : {
-		'url' : 'http://www.rw-designer.com/cursor-library/set-0',
-		'desc' : 'Cursores bonitos y feos.'
-	},
-
-	'M O S T&ensp;P O W E R F U L&ensp;C S S&ensp;O N E - L I N E R S' : {
-		'url' : 'https://twitter.com/denicmarko/status/1559117844205473794',
-		'desc' : 'Truquitos de CSS.'
-	},
-
-	'T A I L W I N D&ensp;C S S' : {
-		'url' : 'https://tailwindcss.com/',
-		'desc' : 'Framework de CSS.'
-	},
-
-	'B O O T S T R A P' : {
-		'url' : 'https://getbootstrap.com/',
-		'desc' : 'Framework de CSS.'
-	},
-
-	'3 0&ensp;S E C O N D S&ensp;O F&ensp;C O D E' : {
-		'url' : 'https://www.30secondsofcode.org/',
-		'desc' : 'Trocitos cortitos de código explicados.'
-	},
-
-	'C S S&ensp;T R I C K S' : {
-		'url' : 'https://css-tricks.com/',
-		'desc' : 'Artículos cortitos sobre CSS.'
-	},
-
-	'C S S&ensp;T R I C K S<br>A&ensp;G U I D E&ensp;T O&ensp;F L E X B O X' : {
-		'url' : 'https://css-tricks.com/snippets/css/a-guide-to-flexbox/',
-		'desc' : 'Guía sobre las flexboxes en CSS.'
-	},
-
-	'G L A S S M O R P H I S M' : {
-		'url' : 'https://css.glass/',
-		'desc' : 'Generador de efecto cristal en CSS.'
-	},
-
-	'P A T T E R N . C S S' : {
-		'url' : 'https://bansal.io/pattern-css#introduction',
-		'desc' : 'Fondos y elementos en CSS.'
-	},
-
-	'F A N C Y&ensp;I M A G E&ensp;D E C O R A T I O N&ensp;O N&ensp;H O V E R' : {
-		'url' : 'https://codepen.io/t_afif/full/QWrmBqJ',
-		'desc' : 'Marquito con animación chula.'
-	}
 };
 
 const javascript = {
@@ -286,7 +121,7 @@ const javascript = {
 		'desc' : 'Versión strogly typed de JS.'
 	},
 
-	'T R U T H Y&ensp;&&ensp;F A L S Y&ensp;V A L U E S' : {
+	'T R U T H Y&ensp;&&ensp;F A L S Y  V A L U E S' : {
 		'url' : 'https://www.sitepoint.com/javascript-truthy-falsy/',
 		'desc' : 'Mini guía sobre lo que JS considera true y false.'
 	},
@@ -378,123 +213,13 @@ const javascript = {
 
 	'T H E&ensp;P R O M I S E&ensp;O F&ensp;A&ensp;B U R G E R&ensp;P A R T Y' : {
 		'url' : 'https://web.archive.org/web/20170202045534/http://kosamari.com/notes/the-promise-of-a-burger-party',
-		'desc' : 'Para trastear con código HTML/JS/CSS.'
+		'desc' : 'Promesas explicadas.'
 	},
 
 	'3 0&ensp;J A V A S C R I P T&ensp;P R O J E C T S' : {
 		'url' : 'https://github.com/Brymmobaggins/30JavaScriptProjects',
 		'desc' : '30 proyectitos usando JS vanilla.'
 	},
-
-	'J A V A S C R I P T&ensp;Q U E S T I O N S' : {
-		'url' : 'https://github.com/lydiahallie/javascript-questions',
-		'desc' : 'Test sobre JS.'
-	},
-
-	'3 3&ensp;J S&ensp;C O N C E P T S' : {
-		'url' : 'https://github.com/leonardomso/33-js-concepts',
-		'desc' : 'Conceptos clave de JS explicados.'
-	},
-
-	'3 0&ensp;S E C O N D S&ensp;O F&ensp;C O D E' : {
-		'url' : 'https://www.30secondsofcode.org/',
-		'desc' : 'Trocitos cortitos de código explicados.'
-	},
-
-	'E B O O K F O U N D A T I O N<br>F R E E&ensp;P R O G R A M M I N G&ensp;B O O K S' : {
-		'url' : 'https://github.com/EbookFoundation/free-programming-books',
-		'desc' : 'Libros, cheatsheets, cursitos y más.'
-	},
-
-	'J A V A S C R I P T&ensp;30' : {
-		'url' : 'https://javascript30.com/',
-		'desc' : 'Challenge de 30 días de JS vanilla.'
-	},
-
-	'E S 6&ensp;C H E A T S H E E T' : {
-		'url' : 'https://github.com/DrkSephy/es6-cheatsheet',
-		'desc' : 'Truquis y tips de JS ES6'
-	},
-
-	'N A M E&ensp;T H A T&ensp;C O L O R' : {
-		'url' : 'https://chir.ag/projects/name-that-color/#3BCEBC',
-		'desc' : 'Nombrador de colores en JS.'
-	},
-
-	'S Y N T A X&ensp;V A L I D A T O R' : {
-		'url' : 'https://esprima.org/demo/validate.html',
-		'desc' : 'Te dice los errores de sintáxis en el código.'
-	},
-
-	'A D V E N T&ensp;O F&ensp;C O D E' : {
-		'url' : 'https://adventofcode.com/',
-		'desc' : 'Calendario de adviento con problemitas de programación.'
-	},
-
-	'G E N T L E&ensp;E X P L A N A T I O N&ensp;O F&ensp;" T H I S "' : {
-		'url' : 'https://dmitripavlutin.com/gentle-explanation-of-this-in-javascript/',
-		'desc' : 'Explicación de cómo funciona "this" en JavaScript.'
-	},
-
-	'A M A Z I N G&ensp;R E A C T&ensp;P R O J E C T S' : {
-		'url' : 'https://github.com/jiwonbest/amazing-react-projects',
-		'desc' : 'Repositorio de GitHub con proyectos de React open source.'
-	},
-
-	'E X P R E S S&ensp;M I D D L E W A R E' : {
-		'url' : 'https://expressjs.com/en/resources/middleware.html',
-		'desc' : 'Documentación sobre middleware de Express.js.'
-	},
-
-	'F O R M&ensp;V A L I D A T I O N :&ensp;W/&ensp;R E G E X': {
-		'url' : 'https://html.form.guide/snippets/javascript-form-validation-using-regular-expression/',
-		'desc' : 'Cómo usar regex con JavaScript para validar formularios HTML.'
-	},
-
-	'C R E A T E&ensp;R E A C T&ensp;A P P': {
-		'url' : 'https://create-react-app.dev/',
-		'desc' : 'Documentación de este paquete de npm para crear apps de React con un sólo comando.'
-	},
-
-	'R E A C T' : {
-		'url' : 'https://reactjs.org/',
-		'desc' : 'Página oficial de la librería React.'
-	},
-
-	'D E P E N D E N C I E S&ensp;A R R A Y&ensp;I N&ensp;R E A C T . U S E E F F E C T ( )' : {
-		'url' : 'https://blog.bitsrc.io/understanding-dependencies-in-useeffect-7afd4df37c96',
-		'desc' : 'Cómo funciona el segundo argumento de useEffect() en React, el array de dependencias.'
-	},
-
-	'S T A C K&ensp;O V E R F L O W : R E M O V I N G<br>C O M P O N E N T S&ensp;I N&ensp;R E A C T ?' : {
-		'url' : 'https://stackoverflow.com/questions/27227792/react-js-removing-a-component',
-		'desc' : 'Cómo manejar componentes en React.'
-	},
-
-	'H O W&ensp;T O&ensp;S H O W&ensp;A N D&ensp;H I D E<br>R E A C T&ensp;C O M P O N E N T S' : {
-		'url' : 'https://www.pluralsight.com/guides/how-to-show-and-hide-reactjs-components',
-		'desc' : 'Cómo mostrar/esconder componentes en React.'
-	},
-
-	'H O W&ensp;T O&ensp;P A S S&ensp;P R O P S&ensp;F R O M<br>C H I L D&ensp;T O&ensp;P A R E N T&ensp;I N&ensp;R E A C T' : {
-		'url' : 'https://javascript.plainenglish.io/how-to-pass-props-from-child-to-parent-component-in-react-d90752ff4d01',
-		'desc' : 'Cómo pasar información de child a parent en React.'
-	},
-
-	'K N O W&ensp;Y O U R&ensp;M U S I C' : {
-		'url' : 'https://github.com/ethanpasta/KnowYourMusic',
-		'desc' : 'Proyecto usando React, Redux, la API de Spotify, etc.'
-	},
-
-	'R E A C T - I C O N S' : {
-		'url' : 'https://react-icons.github.io/react-icons/',
-		'desc' : 'Iconos para proyectos de React.'
-	},
-
-	'A O S' : {
-		'url' : 'https://michalsnik.github.io/aos/',
-		'desc' : 'Animation On Scroll.'
-	}
 };
 
 const apisdb = {
@@ -563,29 +288,24 @@ const apisdb = {
 		'url' : 'https://www.last.fm/api/intro',
 		'desc' : 'API de Last.fm (hace falta registrarse para utilizarla).'
 	},
+};
 
-	'S Q L&ensp;B A S I C S&ensp;C H E A T&ensp;S H E E T' : {
-		'url' : 'https://learnsql.com/blog/sql-basics-cheat-sheet/sql-basics-cheat-sheet-a4.pdf',
-		'desc' : 'Cheat sheet de los comandos más comunes en SQL.'
-	},
-
-	'S I G H T E N G I N E' : {
-		'url' : 'https://sightengine.com/',
-		'desc' : 'API para analizar vídeos e imágenes: colores dominantes, moderación de contenido, etc. (De pago con versión gratuita limitada).'
-	},
-
-	'S P O T I F Y&ensp;F O R&ensp;D E V E L O P E R S' : {
-		'url' : 'https://developer.spotify.com/',
-		'desc' : 'Sitio de Spotify con información sobre su API, documentación, showcase, etc.'
-	},
-
-	'M U S I X M A T C H&ensp;D E V E L O P E R' : {
-		'url' : 'https://developer.musixmatch.com/',
-		'desc' : 'Sitio de MusixMatch (proveedor de letras de canciones) con documentación e info sobre su API.'
-	},
-
-	'F E T C H I N G&ensp;&&ensp;D I S P L A Y I N G&ensp;D A T A&ensp;I N&ensp;R E A C T' : {
-		'url' : 'https://betterprogramming.pub/fetching-and-displaying-data-in-react-part-1-d40fe279a8be',
-		'desc' : 'Cómo hacer fetch & display en React.'
+const cms = {
+	'Y O A S T' : {
+		'url' : 'https://yoast.com/wordpress/plugins/seo/',
+		'desc' : 'Plugin de SEO para Wordpress y Shopify (tiene versión gratis).'
 	}
 };
+
+const studios = {
+	'L I N D S A Y &ensp;H U M E S' : {
+		'url' : 'https://www.lindsayhumes.com/custom-blog-design/',
+		'desc' : 'Blogs de cocina.'
+	},
+
+	'T H E&ensp;C R E A T I V E&ensp;C O R P O R A T I O N' : {
+		'url' : 'https://www.thecreativecorporation.com/',
+		'desc' : 'Grupos y artistas musicales.'
+	},
+
+}
