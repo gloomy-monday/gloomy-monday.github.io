@@ -205,6 +205,19 @@ const movieInfo = {
 		' en cuanto al tono de la película quizás sea lo mejor de todo: pasamos de ver a Frankie dando saltos mortales en la disco a que el malo lance con alevosía al padre de la chica contra las cajas de chococrispis del súper. Que esa es otra, el novio celoso de Frankie (el malo) está totalmente desquiciado. Osea, este chaval'+
 		' debería haber ido a la cárcel varias veces. Pero, ¿dónde está la policía? El único que se ve en todo el metraje es del instituto, que le dice Morgan que bicis en el campus no. Pues menos mal, eh.<br><br>En <i>Tuff Turf</i>, por decir alguna cosa más, también sale un imberbe Rober Downey Jr., que también coincide con Spader en otra película'+
 		' (¿siguiente visionado? Quién sabe). Ah, también sale un personaje latino que puntúa todas las frases con “maricón”.<br><br><span class="conclusion">Conclusión: atención al consejo de padre de esta película: “la vida no es un problema que resolver, es un misterio que vivir”. Amén.</span>'
+	},
+
+		"Mannequin" : {
+		director : "Michael Gottlieb",
+		year : "1987",
+		cast : ["Andrew McCarthy", "Kim Cattrall", "Estelle Getty", "G. W. Bailey"],
+		poster: "<img style='height:567px;width:390px;margin:5rem;margin-top:7rem;margin-bottom:0;' src='mannequin.jpg'>",
+		screenshot: "url('mannequin-screen.jpg')",
+		review: 'ScreenRant colocó esta película en el puesto 37 de 37 películas de James Spader ordenadas de peor a mejor. Y antes de eso la había visto vapuleada y defendida a partes iguales. La necesidad de formarme mi propia opinión (y ver a James haciendo de lameculos repulsivo) me llevó a verme Mannequin en una noche de frío invierno.' +
+		'Sin querer complicar las cosas tanto como las complica el guión, digamos simplemente que la película trata de un chico que se enamora de un maniquí, que resulta que puede convertirse en chica de verdad cuando están los dos a solas. Todas las noches se divierten y preparan el escaparate del día siguiente, que cada vez es más elaborado. Así le dan una nueva vida al centro comercial, cosa que a James Spader no le hace gracia, porque él tiene otros planes.' +
+		'Mannequin es mona, es lo mejor que se puede decir de ella. Tiene un humor de lo más tontorrón, a pesar de incluir bromas sobre acoso laboral y disfunción eréctil. Los outfits de Emmy, la maniquí, son una fantasía y los escenarios aún más. Tanto el centro comercial principal como el de la competencia son enormes, con estilos visuales opuestos pero igual de fuertes (retro lujoso versus policromado lujoso).' +
+		'Por desgracia, no hay suficiente James Spader en esta película lo cual es una pena porque se le ve totalmente comprometido con el tono estrafalario de la historia. Le tenemos sobreactuando a tope su personaje de sanguijuela miserable con alevosía. Un aplauso también al equipo de maquillaje y peluquería por darle un aspecto tan enfermizo.'+
+		 '<br><br><span class="conclusion">Conclusión: “Yo no he perdido mi trabajo, sé exactamente dónde está. Lo único que ahora lo tiene otra persona”.</span>'
 	}
 
 };
